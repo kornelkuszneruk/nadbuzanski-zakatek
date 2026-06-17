@@ -124,7 +124,7 @@ export default function AvailabilityCalendar() {
   const todayKey = dateKey(now);
   const bookedSet = buildBookedSet(booked);
 
-  const months = [0, 1, 2].map((i) => {
+  const months = [0].map((i) => {
     const d = new Date(now.getFullYear(), now.getMonth() + offset + i, 1);
     return { year: d.getFullYear(), month: d.getMonth() };
   });
@@ -173,7 +173,7 @@ export default function AvailabilityCalendar() {
           <span className="text-xs mt-1 block">Dodaj <code className="bg-linen px-1 rounded">BOOKING_ICAL_URL</code> do pliku <code className="bg-linen px-1 rounded">.env.local</code></span>
         </div>
       ) : (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="max-w-sm mx-auto">
           {months.map(({ year, month }) => (
             <MonthGrid
               key={`${year}-${month}`}

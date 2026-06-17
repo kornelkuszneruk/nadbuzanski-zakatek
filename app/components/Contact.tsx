@@ -53,14 +53,36 @@ const contactInfo = [
 export default function Contact() {
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
+    setError("");
+
+    const form = e.currentTarget;
+    const data = {
+      name: (form.elements.namedItem("name") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      checkIn: (form.elements.namedItem("checkIn") as HTMLInputElement).value,
+      checkOut: (form.elements.namedItem("checkOut") as HTMLInputElement).value,
+      guests: (form.elements.namedItem("guests") as HTMLSelectElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+    };
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error();
       setSent(true);
-    }, 1200);
+    } catch {
+      setError("Nie udało się wysłać wiadomości. Spróbuj ponownie lub napisz bezpośrednio na nadbuzanskizakatek@gmail.com");
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
@@ -163,6 +185,7 @@ export default function Contact() {
                       </label>
                       <input
                         required
+                        name="name"
                         type="text"
                         placeholder="Jan Kowalski"
                         className="w-full rounded-xl border border-linen bg-sand px-4 py-3 text-sm text-forest placeholder:text-forest/30 focus:outline-none focus:border-sage focus:ring-2 focus:ring-sage/15 transition-all"
@@ -174,6 +197,7 @@ export default function Contact() {
                       </label>
                       <input
                         required
+                        name="email"
                         type="email"
                         placeholder="jan@example.com"
                         className="w-full rounded-xl border border-linen bg-sand px-4 py-3 text-sm text-forest placeholder:text-forest/30 focus:outline-none focus:border-sage focus:ring-2 focus:ring-sage/15 transition-all"
@@ -188,6 +212,7 @@ export default function Contact() {
                       </label>
                       <input
                         required
+                        name="checkIn"
                         type="date"
                         className="w-full rounded-xl border border-linen bg-sand px-4 py-3 text-sm text-forest focus:outline-none focus:border-sage focus:ring-2 focus:ring-sage/15 transition-all"
                       />
@@ -198,6 +223,7 @@ export default function Contact() {
                       </label>
                       <input
                         required
+                        name="checkOut"
                         type="date"
                         className="w-full rounded-xl border border-linen bg-sand px-4 py-3 text-sm text-forest focus:outline-none focus:border-sage focus:ring-2 focus:ring-sage/15 transition-all"
                       />
@@ -209,6 +235,7 @@ export default function Contact() {
                       Liczba osób
                     </label>
                     <select
+                      name="guests"
                       className="w-full rounded-xl border border-linen bg-sand px-4 py-3 text-sm text-forest focus:outline-none focus:border-sage focus:ring-2 focus:ring-sage/15 transition-all"
                     >
                       {[1, 2, 3, 4, 5, 6, 7].map((n) => (
@@ -224,11 +251,16 @@ export default function Contact() {
                       Wiadomość
                     </label>
                     <textarea
+                      name="message"
                       rows={4}
                       placeholder="Pytania, specjalne życzenia, uwagi..."
                       className="w-full rounded-xl border border-linen bg-sand px-4 py-3 text-sm text-forest placeholder:text-forest/30 focus:outline-none focus:border-sage focus:ring-2 focus:ring-sage/15 transition-all resize-none"
                     />
                   </div>
+
+                  {error && (
+                    <p className="text-red-600 text-sm leading-snug">{error}</p>
+                  )}
 
                   <button
                     type="submit"

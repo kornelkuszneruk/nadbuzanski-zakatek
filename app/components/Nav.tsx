@@ -30,13 +30,13 @@ export default function Nav() {
         scrolled ? "bg-sand/95 backdrop-blur-md shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between h-24 md:h-28">
         <a href="#" className="flex items-center gap-2.5 flex-shrink-0">
           <Image
             src="/logo.png"
             alt="Nadbużański Zakątek"
-            width={80}
-            height={80}
+            width={96}
+            height={96}
             className="rounded-full"
           />
           <span
