@@ -14,9 +14,27 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.nadbuzanskizakatek.pl"),
   title: "Nadbużański Zakątek – drewniany domek nad Bugiem | Wola Uhruska",
   description:
     "Drewniany domek dla 7 osób w Woli Uhruskiej. Prywatne stawy, grill gazowy, hamaki, wędzarnia. Cisza i natura nad rzeką Bug.",
+  openGraph: {
+    title: "Nadbużański Zakątek – drewniany domek nad Bugiem",
+    description:
+      "Drewniany domek dla 7 osób w Woli Uhruskiej. Prywatne stawy, grill gazowy, hamaki, wędzarnia. Cisza i natura nad rzeką Bug.",
+    url: "https://www.nadbuzanskizakatek.pl",
+    siteName: "Nadbużański Zakątek",
+    images: [
+      {
+        url: "/hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Nadbużański Zakątek – drewniany domek nad Bugiem",
+      },
+    ],
+    locale: "pl_PL",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
