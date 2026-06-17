@@ -4,7 +4,7 @@ import FadeIn from "./FadeIn";
 const highlights = [
   {
     emoji: "🪵",
-    title: "Domek z bala",
+    title: "Drewniany domek",
     body: "Tradycyjna architektura drewniana otoczona ciszą i zielenią",
   },
   {
@@ -41,14 +41,20 @@ export default function About() {
                 <em className="italic text-sage">pośród natury</em>
               </h2>
               <p className="text-forest/60 text-lg leading-relaxed mb-5">
-                Nadbużański Zakątek to domek z bala położony w Woli Uhruskiej,
+                Nadbużański Zakątek to drewniany domek przy samej Woli Uhruskiej,
                 w sercu Polesia Lubelskiego. Prywatne otoczenie, dwa stawy i
                 bliskość Bugu tworzą wyjątkowe warunki do prawdziwego wypoczynku.
               </p>
-              <p className="text-forest/60 text-lg leading-relaxed mb-10">
+              <p className="text-forest/60 text-lg leading-relaxed mb-5">
                 Obiekt mieści do 7 osób i oferuje wszystko, czego potrzeba: duży
                 taras z grillem gazowym, hamaki, leżaki, a także wędzarnię. Karpie
                 koi w przydomowym stawie zachwycają małych i dużych gości.
+              </p>
+              <p className="text-forest/60 text-lg leading-relaxed mb-10">
+                Wieczory umilają palenisko i miejsce na ognisko — idealne na
+                wspólne siedzenie pod gwiazdami. W ogrodzie czeka huśtawka oraz
+                sad z drzewami i krzewami owocowymi, z których owoce można
+                zrywać prosto z gałęzi.
               </p>
             </FadeIn>
 

@@ -42,6 +42,21 @@ const amenities = [
     desc: "Tradycyjna wędzarnia do przygotowania własnych wędlin i ryb",
   },
   {
+    emoji: "🔥",
+    title: "Palenisko",
+    desc: "Własne palenisko i miejsce na ognisko — idealne na wieczory pod gwiazdami",
+  },
+  {
+    emoji: "🪁",
+    title: "Huśtawka",
+    desc: "Drewniana huśtawka ogrodowa dla dzieci i dorosłych",
+  },
+  {
+    emoji: "🍎",
+    title: "Owocowy sad",
+    desc: "Przydomowy sad z drzewami owocowymi — jabłonie, gruszki i śliwy",
+  },
+  {
     emoji: "🌲",
     title: "Cisza i natura",
     desc: "Odizolowane położenie w Dolinie Bugu gwarantuje absolutny spokój",

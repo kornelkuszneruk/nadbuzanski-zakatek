@@ -47,7 +47,7 @@ export default function Hero() {
           className="text-cream/75 text-lg md:text-xl leading-relaxed max-w-lg mx-auto mb-12 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
         >
-          Domek z&nbsp;bala dla&nbsp;7&nbsp;osób. Dwa prywatne stawy,
+          Drewniany domek dla&nbsp;7&nbsp;osób. Dwa prywatne stawy,
           cisza i&nbsp;natura nad rzeką Bug.
         </p>
 
@@ -74,7 +74,7 @@ export default function Hero() {
           className="mt-14 flex flex-wrap justify-center gap-3 animate-fade-in"
           style={{ animationDelay: "1.2s" }}
         >
-          {["Do 7 osób", "Dwa stawy", "Grill gazowy", "Hamaki & leżaki", "Wędzarnia"].map(
+          {["Do 7 osób", "Dwa stawy", "Grill gazowy", "Palenisko & ognisko", "Huśtawka", "Owocowy sad", "Hamaki & leżaki", "Wędzarnia"].map(
             (tag) => (
               <span
                 key={tag}
