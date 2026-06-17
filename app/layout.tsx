@@ -14,9 +14,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Nadbużański Zakątek – Domek z bala nad Bugiem | Wola Uhruska",
+  title: "Nadbużański Zakątek – drewniany domek nad Bugiem | Wola Uhruska",
   description:
-    "Domek z bala dla 7 osób w Woli Uhruskiej. Prywatne stawy, grill gazowy, hamaki, wędzarnia. Cisza i natura nad rzeką Bug.",
+    "Drewniany domek dla 7 osób w Woli Uhruskiej. Prywatne stawy, grill gazowy, hamaki, wędzarnia. Cisza i natura nad rzeką Bug.",
 };
 
 export default function RootLayout({

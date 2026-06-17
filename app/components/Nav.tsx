@@ -31,12 +31,12 @@ export default function Nav() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between h-24 md:h-28">
-        <a href="#" className="flex items-center gap-2.5 flex-shrink-0">
+        <a href="#" className="flex items-center gap-2.5 flex-shrink-0 -ml-4">
           <Image
             src="/logo.png"
             alt="Nadbużański Zakątek"
-            width={96}
-            height={96}
+            width={92}
+            height={92}
             className="rounded-full"
           />
           <span

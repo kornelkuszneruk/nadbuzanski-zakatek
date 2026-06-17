@@ -25,7 +25,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p
-          className="text-meadow/90 text-xs md:text-sm font-semibold tracking-[0.35em] uppercase mb-8 animate-fade-in"
+          className="text-meadow/90 text-xs md:text-sm font-semibold tracking-[0.35em] uppercase mb-8 mt-[114px] animate-fade-in"
           style={{ animationDelay: "0.3s" }}
         >
           Wola Uhruska · Dolina Bugu
