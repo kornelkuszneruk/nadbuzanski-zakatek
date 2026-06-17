@@ -69,6 +69,12 @@ const amenities = [
     image: "/atrakcje/IMG_4825_SnapseedCopy.jpg",
   },
   {
+    emoji: "🏸",
+    title: "Badminton",
+    desc: "Siatka do badmintona na świeżym powietrzu — świetna zabawa dla całej rodziny",
+    image: "/atrakcje/badminton.jpg",
+  },
+  {
     emoji: "🌲",
     title: "Cisza i natura",
     desc: "Odizolowane położenie w Dolinie Bugu gwarantuje absolutny spokój",

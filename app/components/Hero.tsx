@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-svh flex items-end justify-center overflow-hidden pb-20 md:pb-28">
+    <section className="relative min-h-svh flex flex-col overflow-hidden">
       {/* Background photo */}
       <Image
         src="/hero.jpg"
@@ -14,7 +14,7 @@ export default function Hero() {
       />
 
       {/* Dark gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-forest/70 via-forest/50 to-forest/75" />
+      <div className="absolute inset-0 bg-gradient-to-b from-forest/70 via-forest/30 to-forest/75" />
 
       {/* Soft glow accents */}
       <div className="absolute inset-0 pointer-events-none">
@@ -22,17 +22,16 @@ export default function Hero() {
         <div className="absolute -bottom-32 -left-32 w-[400px] h-[400px] rounded-full bg-meadow/10 blur-3xl" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      {/* Top: label + title */}
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto w-full pt-28 md:pt-30">
         <p
-          className="text-meadow/90 text-xs md:text-sm font-semibold tracking-[0.35em] uppercase mb-8 mt-[114px] animate-fade-in"
+          className="text-meadow/90 text-xs md:text-sm font-semibold tracking-[0.35em] uppercase mb-8 animate-fade-in"
           style={{ animationDelay: "0.3s" }}
         >
           Wola Uhruska · Dolina Bugu
         </p>
-
         <h1
-          className="font-serif font-semibold text-cream leading-[1.08] mb-6 animate-fade-up"
+          className="font-serif font-semibold text-cream leading-[1.08] animate-fade-up"
           style={{
             fontSize: "clamp(2.8rem, 9vw, 5.5rem)",
             animationDelay: "0.5s",
@@ -42,7 +41,10 @@ export default function Hero() {
           <br />
           <em className="italic text-meadow">Zakątek</em>
         </h1>
+      </div>
 
+      {/* Bottom: subtitle + buttons + tags */}
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto w-full mt-auto pb-6 md:pb-8">
         <p
           className="text-cream/75 text-lg md:text-xl leading-relaxed max-w-lg mx-auto mb-12 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
