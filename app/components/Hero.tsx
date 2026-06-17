@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-svh flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-svh flex items-end justify-center overflow-hidden pb-20 md:pb-28">
       {/* Background photo */}
       <Image
         src="/hero.jpg"
@@ -47,8 +47,7 @@ export default function Hero() {
           className="text-cream/75 text-lg md:text-xl leading-relaxed max-w-lg mx-auto mb-12 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
         >
-          Drewniany domek dla&nbsp;7&nbsp;osób. Dwa prywatne stawy,
-          cisza i&nbsp;natura nad rzeką Bug.
+          Drewniany domek dla&nbsp;7&nbsp;osób. Stawy, cisza i&nbsp;dzika przyroda nad rzeką Bug.
         </p>
 
         <div

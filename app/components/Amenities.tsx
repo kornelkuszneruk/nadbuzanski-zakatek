@@ -5,7 +5,7 @@ const amenities = [
   {
     emoji: "🏞️",
     title: "Dwa stawy",
-    desc: "Staw z karpiem koi do karmienia oraz staw wędkarski dla miłośników wędkarstwa",
+    desc: "Staw z karpiami koi do karmienia oraz staw wędkarski dla miłośników wędkarstwa",
     image: "/atrakcje/IMG_0070.jpg",
   },
   {

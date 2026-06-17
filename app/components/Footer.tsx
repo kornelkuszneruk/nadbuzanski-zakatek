@@ -28,8 +28,8 @@ export default function Footer() {
               </span>
             </a>
             <p className="text-sm leading-relaxed text-cream/50 max-w-xs">
-              Domek z bala dla 7 osób w Woli Uhruskiej. Dwa stawy, cisza i natura
-              nad rzeką Bug.
+              Drewniany domek dla 7 osób w Woli Uhruskiej. Stawy, otoczenie drzew
+              i krzewów, cisza i dzika przyroda w pobliżu rzeki Bug.
             </p>
           </div>
 
