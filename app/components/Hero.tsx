@@ -72,7 +72,7 @@ export default function Hero() {
 
         {/* Feature tags */}
         <div
-          className="mt-14 flex flex-wrap justify-center gap-3 animate-fade-in"
+          className="mt-14 hidden sm:flex flex-wrap justify-center gap-3 animate-fade-in"
           style={{ animationDelay: "1.2s" }}
         >
           {["Do 7 osób", "Dwa stawy", "Grill gazowy", "Palenisko & ognisko", "Huśtawka", "Owocowy sad", "Hamaki & leżaki", "Wędzarnia", "Internet", "Nagłośnienie", "TV", "Wędkowanie", "Duży taras"].map(
