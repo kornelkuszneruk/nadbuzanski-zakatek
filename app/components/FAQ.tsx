@@ -17,7 +17,7 @@ const faqs = [
     a: "Oczywiście! Nadbużański Zakątek to idealne miejsce dla rodzin z dziećmi. Na terenie posesji znajdują się huśtawka, hamaki, stawy z karpiami koi do karmienia oraz ogromna, ogrodzona działka, po której dzieci mogą swobodnie biegać.",
   },
   {
-    q: "Czy są zwierzęta?",
+    q: "Czy akceptujecie zwierzęta?",
     a: "W przydomowym stawie pływają kolorowe karpie koi, które można obserwować i karmić. Niestety ze względu na dobro innych gości, w tym alergików, nie zezwalamy na przywożenie własnych zwierząt domowych.",
   },
   {
