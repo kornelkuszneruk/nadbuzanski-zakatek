@@ -2,11 +2,16 @@ import FadeIn from "./FadeIn";
 
 const included = [
   "Pełne wyposażenie domku",
+  "Prawie hektar ogrodzonej działki na wyłączność",
   "Dostęp do obu stawów (wędkowanie za dodatkową opłatą)",
+  "Dostęp do owoców w sadzie",
   "Grill gazowy",
   "Hamaki i leżaki",
   "Wędzarnia",
   "Palenisko i miejsce na ognisko",
+  "Głośnik JBL",
+  "Telewizor",
+  "Internet",
   "Bezpłatny parking",
 ];
 

@@ -26,6 +26,21 @@ const interior = [
   // Row 7:
   { src: "/gallery/IMG_9874.jpg", alt: "Widok antresoli z góry", label: "Antresola – widok", span: "col-span-2" },
   { src: "/gallery/IMG_9814.jpg", alt: "Antresola z widokiem na salon", label: "Antresola", span: "" },
+  { src: "/gallery/IMG_9817.jpg", alt: "Sypialnia jednoosobowa na antresoli", label: "Sypialnia", span: "" },
+];
+
+const night = [
+  { src: "/noc/IMG_0035.jpg", alt: "Domek nocą pod gwiazdami", label: "Pod gwiazdami", span: "row-span-2" },
+  { src: "/noc/IMG_0024.jpg", alt: "Domek nocą od zewnątrz", label: "Domek nocą", span: "" },
+  { src: "/noc/IMG_0031.jpg", alt: "Ogród nocą z hamakami i lampkami", label: "Ogród nocą", span: "" },
+  { src: "/noc/IMG_0015.jpg", alt: "Taras nocą z lampkami", label: "Taras nocą", span: "" },
+  { src: "/noc/IMG_0034.jpg", alt: "Domek nocą i gwiazdy", label: "Noc i gwiazdy", span: "" },
+];
+
+const winter = [
+  { src: "/zima/IMG_6788.jpg", alt: "Domek zimą nocą wśród ośnieżonych drzew", label: "Zimowy wieczór", span: "" },
+  { src: "/zima/IMG_6803.jpg", alt: "Domek pokryty śniegiem nocą", label: "Domek w śniegu", span: "" },
+  { src: "/zima/IMG_6807.jpg", alt: "Domek zimą z oświetleniem", label: "Zimowa noc", span: "" },
 ];
 
 const exterior = [
@@ -115,6 +130,24 @@ export default function Gallery() {
             <div className="flex-1 h-px bg-linen" />
           </div>
           <PhotoGrid photos={exterior} />
+        </FadeIn>
+
+        {/* Night */}
+        <FadeIn delay={120}>
+          <div className="flex items-center gap-4 mt-10 mb-5">
+            <span className="text-forest font-medium text-sm tracking-wide">Domek nocą</span>
+            <div className="flex-1 h-px bg-linen" />
+          </div>
+          <PhotoGrid photos={night} />
+        </FadeIn>
+
+        {/* Winter */}
+        <FadeIn delay={140}>
+          <div className="flex items-center gap-4 mt-10 mb-5">
+            <span className="text-forest font-medium text-sm tracking-wide">Zimowa pora</span>
+            <div className="flex-1 h-px bg-linen" />
+          </div>
+          <PhotoGrid photos={winter} />
         </FadeIn>
 
         <FadeIn delay={150}>

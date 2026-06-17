@@ -14,13 +14,13 @@ const highlights = [
   },
   {
     emoji: "🎣",
-    title: "Staw wędkarski",
-    body: "Prywatny staw wędkarski dostępny tylko dla gości",
+    title: "Dwa stawy",
+    body: "Staw z karpiami koi do karmienia oraz duży staw wędkarski dla miłośników wędkarstwa",
   },
   {
     emoji: "🌊",
     title: "Rzeka Bug",
-    body: "Malownicza rzeka Bug w bezpośrednim sąsiedztwie obiektu",
+    body: "Malownicza rzeka Bug w niedalekim sąsiedztwie obiektu",
   },
 ];
 
@@ -85,15 +85,7 @@ export default function About() {
                 <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-forest/40 to-transparent" />
               </div>
 
-              {/* Floating stat */}
-              <div className="absolute -bottom-8 -left-6 rounded-2xl bg-cream p-5 shadow-xl border border-linen">
-                <p className="font-serif text-4xl font-bold text-forest leading-none mb-1">2</p>
-                <p className="text-forest/50 text-xs leading-snug">
-                  prywatne stawy<br />z karpiem koi
-                </p>
-              </div>
-
-              {/* Badge */}
+{/* Badge */}
               <div className="absolute -top-5 -right-5 w-20 h-20 rounded-full bg-sage flex items-center justify-center shadow-lg shadow-sage/30">
                 <span className="text-cream text-[10px] font-bold uppercase tracking-wide text-center leading-tight px-2">
                   Nad<br />Bugiem

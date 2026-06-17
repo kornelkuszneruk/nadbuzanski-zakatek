@@ -74,7 +74,7 @@ export default function Hero() {
           className="mt-14 flex flex-wrap justify-center gap-3 animate-fade-in"
           style={{ animationDelay: "1.2s" }}
         >
-          {["Do 7 osób", "Dwa stawy", "Grill gazowy", "Palenisko & ognisko", "Huśtawka", "Owocowy sad", "Hamaki & leżaki", "Wędzarnia"].map(
+          {["Do 7 osób", "Dwa stawy", "Grill gazowy", "Palenisko & ognisko", "Huśtawka", "Owocowy sad", "Hamaki & leżaki", "Wędzarnia", "Internet", "Nagłośnienie", "TV", "Wędkowanie", "Duży taras"].map(
             (tag) => (
               <span
                 key={tag}
