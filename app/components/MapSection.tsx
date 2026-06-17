@@ -54,6 +54,7 @@ export default function MapSection() {
             ))}
           </div>
         </FadeIn>
+
       </div>
     </section>
   );

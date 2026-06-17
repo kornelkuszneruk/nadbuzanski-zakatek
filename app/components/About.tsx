@@ -22,6 +22,16 @@ const highlights = [
     title: "Rzeka Bug",
     body: "Malownicza rzeka Bug w niedalekim sąsiedztwie obiektu",
   },
+  {
+    emoji: "🚲",
+    title: "Green Velo",
+    body: "Słynny szlak rowerowy Green Velo przebiega w pobliżu — jedna z najpiękniejszych tras w Polsce",
+  },
+  {
+    emoji: "🔥",
+    title: "Wieczory przy ognisku",
+    body: "Palenisko, grill i gwiazdy nad głową.",
+  },
 ];
 
 export default function About() {

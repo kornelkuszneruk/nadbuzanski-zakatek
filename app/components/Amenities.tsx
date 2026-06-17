@@ -69,6 +69,12 @@ const amenities = [
     image: "/atrakcje/IMG_4825_SnapseedCopy.jpg",
   },
   {
+    emoji: "🍄",
+    title: "Grzybobranie",
+    desc: "Okoliczne lasy obfitują w grzyby — jesienne wyprawy z koszykiem to jedna z największych atrakcji regionu",
+    image: "/atrakcje/IMG_3122.jpg",
+  },
+  {
     emoji: "🏸",
     title: "Badminton",
     desc: "Siatka do badmintona na świeżym powietrzu — świetna zabawa dla całej rodziny",
