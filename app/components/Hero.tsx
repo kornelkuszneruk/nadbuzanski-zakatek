@@ -49,7 +49,7 @@ export default function Hero() {
           className="text-cream/75 text-lg md:text-xl leading-relaxed max-w-lg mx-auto mb-12 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
         >
-          Drewniany domek dla&nbsp;7&nbsp;osób. Stawy, cisza i&nbsp;dzika przyroda nad rzeką Bug.
+          Drewniany domek dla&nbsp;7&nbsp;osób. Stawy, cisza i&nbsp;poleska, dzika przyroda niedaleko rzeki Bug.
         </p>
 
         <div
