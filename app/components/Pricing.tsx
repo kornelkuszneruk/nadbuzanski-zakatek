@@ -2,7 +2,7 @@ import FadeIn from "./FadeIn";
 
 const included = [
   "Pełne wyposażenie domku",
-  "Dostęp do obu stawów",
+  "Dostęp do obu stawów (za dodatkową opłatą)",
   "Grill gazowy",
   "Hamaki i leżaki",
   "Wędzarnia",

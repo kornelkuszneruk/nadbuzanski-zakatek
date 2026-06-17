@@ -35,7 +35,7 @@ const contactInfo = [
       />
     ),
     label: "E-mail",
-    value: "kontakt@nadbuzan skiozakatek.pl",
+    value: "nadbuzanskizakatek@gmail.com",
   },
   {
     icon: (
@@ -46,7 +46,7 @@ const contactInfo = [
       />
     ),
     label: "Zameldowanie / wymeldowanie",
-    value: "od 15:00 / do 11:00",
+    value: "od 14:00 / do 11:00",
   },
 ];
 
