@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Nadbużański Zakątek",
     images: [
       {
-        url: "/hero.jpg",
+        url: "https://www.nadbuzanskizakatek.pl/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Nadbużański Zakątek – drewniany domek nad Bugiem",
