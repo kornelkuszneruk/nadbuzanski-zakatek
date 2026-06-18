@@ -5,6 +5,7 @@ import Amenities from "./components/Amenities";
 import Gallery from "./components/Gallery";
 import Pricing from "./components/Pricing";
 import Booking from "./components/Booking";
+import Reviews from "./components/Reviews";
 import Surroundings from "./components/Surroundings";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
@@ -22,6 +23,7 @@ export default function Home() {
         <Surroundings />
         <Gallery />
         <Pricing />
+        <Reviews />
         <Booking />
         <Contact />
         <MapSection />
