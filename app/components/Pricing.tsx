@@ -86,6 +86,30 @@ export default function Pricing() {
           </div>
         </FadeIn>
 
+        <FadeIn delay={100}>
+          <div className="max-w-3xl mx-auto mb-8">
+            <div className="rounded-2xl border border-linen bg-sand p-6 md:p-8">
+              <p className="text-sage text-xs font-bold tracking-[0.25em] uppercase mb-5 text-center">Miejsca do spania · do 7 osób</p>
+              <div className="grid sm:grid-cols-2 gap-3">
+                {[
+                  { icon: "🛋️", name: "Rozkładana sofa", desc: "Salon · 2 osoby" },
+                  { icon: "🛏️", name: "Łóżko 90 cm", desc: "Antresola · 1 osoba" },
+                  { icon: "🛏️", name: "Łóżko 120 cm", desc: "Antresola · 2 osoby" },
+                  { icon: "🚪", name: "Łóżko 160 cm", desc: "Zamknięta sypialnia · 2 osoby" },
+                ].map((b) => (
+                  <div key={b.name} className="flex items-center gap-3 p-3 rounded-xl bg-cream border border-linen">
+                    <span className="text-xl flex-shrink-0">{b.icon}</span>
+                    <div>
+                      <p className="text-forest font-medium text-sm">{b.name}</p>
+                      <p className="text-forest/45 text-xs">{b.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </FadeIn>
+
         <FadeIn delay={120}>
           <div className="max-w-lg mx-auto rounded-3xl bg-pine text-cream p-10 md:p-12 shadow-2xl shadow-pine/30">
             <p className="text-meadow text-xs font-semibold tracking-[0.3em] uppercase mb-6 text-center">
