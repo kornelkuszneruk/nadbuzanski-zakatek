@@ -106,7 +106,7 @@ export default function Gallery() {
         <FadeIn delay={150}>
           <div className="text-center mt-12">
             <a
-              href="#kontakt"
+              href="#rezerwacje"
               className="inline-flex items-center gap-2 text-sage hover:text-fern font-medium text-sm tracking-wide transition-colors duration-200"
             >
               Zainspirowany? Zarezerwuj pobyt

@@ -105,7 +105,7 @@ export default function Pricing() {
             </ul>
 
             <a
-              href="#kontakt"
+              href="#rezerwacje"
               className="block text-center rounded-full bg-sage py-4 text-sm font-semibold text-cream tracking-wide transition-all duration-300 hover:bg-fern hover:shadow-lg hover:shadow-sage/30"
             >
               Zarezerwuj pobyt
