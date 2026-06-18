@@ -8,6 +8,7 @@ const links = [
   { href: "#atrakcje", label: "Atrakcje" },
   { href: "#galeria", label: "Galeria" },
   { href: "#cennik", label: "Cennik" },
+  { href: "#rezerwacje", label: "Kalendarz" },
   { href: "#kontakt", label: "Kontakt" },
 ];
 

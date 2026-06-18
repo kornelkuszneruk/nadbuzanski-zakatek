@@ -23,7 +23,8 @@ const tiers = [
 ];
 
 const included = [
-  "Pełne wyposażenie domku",
+  "W pełni wyposażony domek",
+  "Dwa ręczniki dla każdego gościa",
   "Prawie hektar ogrodzonej działki na wyłączność",
   "Dostęp do obu stawów (wędkowanie za dodatkową opłatą)",
   "Dostęp do owoców w sadzie",

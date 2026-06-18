@@ -57,7 +57,7 @@ export default function Hero() {
           style={{ animationDelay: "0.9s" }}
         >
           <a
-            href="#kontakt"
+            href="#rezerwacje"
             className="rounded-full bg-sage text-cream px-8 py-4 text-sm font-semibold tracking-wide transition-all duration-300 hover:bg-fern hover:shadow-2xl hover:shadow-sage/30 hover:-translate-y-0.5 active:translate-y-0"
           >
             Sprawdź dostępność

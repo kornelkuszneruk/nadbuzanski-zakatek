@@ -80,7 +80,7 @@ export default function PhotoGrid({ photos }: { photos: Photo[] }) {
           </button>
 
           <div
-            className="px-16 md:px-24 max-w-6xl w-full flex flex-col items-center"
+            className="px-10 md:px-20 max-w-5xl w-full flex flex-col items-center"
             onClick={(e) => e.stopPropagation()}
           >
             <Image
@@ -90,12 +90,11 @@ export default function PhotoGrid({ photos }: { photos: Photo[] }) {
               height={0}
               sizes="100vw"
               style={{
-                width: "auto",
+                width: "100%",
                 height: "auto",
-                maxWidth: "100%",
-                maxHeight: "85vh",
+                maxHeight: "80vh",
+                objectFit: "contain",
                 display: "block",
-                margin: "0 auto",
               }}
               className="rounded-xl shadow-2xl"
             />

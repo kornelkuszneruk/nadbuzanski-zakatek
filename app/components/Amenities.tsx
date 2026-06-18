@@ -30,7 +30,7 @@ const amenities = [
     emoji: "🔥",
     title: "Grill gazowy",
     desc: "Profesjonalny grill gazowy gotowy do użycia przez cały sezon",
-    image: "/atrakcje/IMG_9909.jpg",
+    image: "/atrakcje/IMG_9983_SnapseedCopy.jpg",
   },
   {
     emoji: "🛌",
