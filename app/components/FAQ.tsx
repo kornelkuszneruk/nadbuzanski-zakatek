@@ -29,6 +29,10 @@ const faqs = [
     a: "Tak, w domku dostępny jest bezprzewodowy internet Wi-Fi bez dodatkowych opłat.",
   },
   {
+    q: "Czy można korzystać z basenu zewnętrznego?",
+    a: "Tak — zewnętrzny basen ogrodowy jest bezpłatnie do dyspozycji gości przez cały pobyt, jeśli tylko pogoda na to pozwala. W sezonie letnim basen jest przygotowany i gotowy do użycia.",
+  },
+  {
     q: "Jak korzystać z jacuzzi?",
     a: "Jacuzzi dostępne jest za dodatkową opłatą. Jeśli chcesz skorzystać z jacuzzi podczas pobytu, prosimy o wcześniejsze poinformowanie nas — potrzebujemy czasu na jego odpowiednie przygotowanie. Szczegóły i cennik ustalamy indywidualnie przy rezerwacji.",
   },
