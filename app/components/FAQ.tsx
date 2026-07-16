@@ -29,6 +29,10 @@ const faqs = [
     a: "Tak, w domku dostępny jest bezprzewodowy internet Wi-Fi bez dodatkowych opłat.",
   },
   {
+    q: "Jak korzystać z jacuzzi?",
+    a: "Jacuzzi dostępne jest za dodatkową opłatą. Jeśli chcesz skorzystać z jacuzzi podczas pobytu, prosimy o wcześniejsze poinformowanie nas — potrzebujemy czasu na jego odpowiednie przygotowanie. Szczegóły i cennik ustalamy indywidualnie przy rezerwacji.",
+  },
+  {
     q: "Czy można palić papierosy?",
     a: "Nie — na terenie całej posesji obowiązuje bezwzględny zakaz palenia papierosów, zarówno wewnątrz domku, jak i na zewnątrz. Dziękujemy za zrozumienie.",
   },
