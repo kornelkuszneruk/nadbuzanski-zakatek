@@ -50,6 +50,22 @@ const night: Photo[] = [
   { src: "/noc/IMG_0015.jpg", alt: "Taras nocą z lampkami", label: "Taras nocą" },
 ];
 
+const pool: Photo[] = [
+  { src: "/basen/IMG_1334.jpg", alt: "Basen ogrodowy", label: "Basen" },
+  { src: "/basen/IMG_1335.jpg", alt: "Basen w ogrodzie", label: "Basen" },
+];
+
+const jacuzzi: Photo[] = [
+  { src: "/jaccuzzi/IMG_1340.jpg", alt: "Jacuzzi nocą", label: "Jacuzzi" },
+  { src: "/jaccuzzi/IMG_1339.jpg", alt: "Jacuzzi w ogrodzie", label: "Jacuzzi" },
+  { src: "/jaccuzzi/IMG_1174.jpg", alt: "Jacuzzi", label: "Jacuzzi" },
+  { src: "/jaccuzzi/IMG_1178.jpg", alt: "Jacuzzi relaks", label: "Jacuzzi" },
+  { src: "/jaccuzzi/IMG_1188.jpg", alt: "Jacuzzi wieczorem", label: "Jacuzzi" },
+  { src: "/jaccuzzi/IMG_1333.jpg", alt: "Jacuzzi z bliska", label: "Jacuzzi" },
+  { src: "/jaccuzzi/IMG_1336.jpg", alt: "Jacuzzi oświetlone", label: "Jacuzzi" },
+];
+
+
 const winter: Photo[] = [
   { src: "/zima/IMG_6788.jpg", alt: "Domek zimą nocą wśród ośnieżonych drzew", label: "Zimowy wieczór" },
   { src: "/zima/IMG_6803.jpg", alt: "Domek pokryty śniegiem nocą", label: "Domek w śniegu" },
@@ -93,7 +109,17 @@ export default function Gallery() {
           <PhotoGrid photos={exterior} />
         </FadeIn>
 
-        <FadeIn delay={120}>
+        <FadeIn delay={110}>
+          <SectionLabel label="Basen" />
+          <PhotoGrid photos={pool} />
+        </FadeIn>
+
+        <FadeIn delay={115}>
+          <SectionLabel label="Jacuzzi" />
+          <PhotoGrid photos={jacuzzi} />
+        </FadeIn>
+
+<FadeIn delay={120}>
           <SectionLabel label="Domek nocą" />
           <PhotoGrid photos={night} />
         </FadeIn>

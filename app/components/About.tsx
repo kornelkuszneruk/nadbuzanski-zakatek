@@ -4,7 +4,7 @@ import FadeIn from "./FadeIn";
 const highlights = [
   {
     emoji: "🪵",
-    title: "Drewniany domek",
+    title: "Drewniany klimatyzowany domek",
     body: "Tradycyjna architektura drewniana otoczona ciszą i zielenią",
   },
   {
@@ -65,11 +65,12 @@ export default function About() {
                 nadbużańskiej przystani.
               </p>
               <p className="text-forest/60 text-lg leading-relaxed mb-5">
-                Domek komfortowo pomieści do 7 osób. Do dyspozycji gości oddajemy
-                przestronny taras z grillem gazowym, hamaki, leżaki, huśtawkę, miejsce na
-                ognisko, palenisko oraz tradycyjną wędzarnię. To idealna przestrzeń do
-                wspólnego biesiadowania, relaksu i celebrowania chwil spędzonych z rodziną
-                lub przyjaciółmi.
+                Domek komfortowo pomieści do 7 osób i wyposażony jest w klimatyzację,
+                zapewniającą komfort zarówno w upalne letnie dni, jak i chłodniejsze
+                wieczory. Do dyspozycji gości oddajemy przestronny taras z grillem gazowym,
+                hamaki, leżaki, huśtawkę, miejsce na ognisko, palenisko oraz tradycyjną
+                wędzarnię. To idealna przestrzeń do wspólnego biesiadowania, relaksu
+                i celebrowania chwil spędzonych z rodziną lub przyjaciółmi.
               </p>
               <p className="text-forest/60 text-lg leading-relaxed mb-10">
                 Na terenie posesji znajdują się dwa stawy. W jednym pływają zachwycające

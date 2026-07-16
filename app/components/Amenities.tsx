@@ -1,7 +1,7 @@
 import Image from "next/image";
 import FadeIn from "./FadeIn";
 
-const amenities = [
+const amenities: { emoji: string; title: string; desc: string; image: string; position?: string }[] = [
   {
     emoji: "🏞️",
     title: "Dwa stawy",
@@ -81,6 +81,26 @@ const amenities = [
     image: "/atrakcje/badminton.jpg",
   },
   {
+    emoji: "🏊",
+    title: "Basen",
+    desc: "Prywatny basen ogrodowy dostępny wyłącznie dla gości obiektu",
+    image: "/basen/IMG_1335.jpg",
+    position: "object-bottom",
+  },
+  {
+    emoji: "🛁",
+    title: "Jacuzzi",
+    desc: "Jacuzzi z hydromasażem — idealne na relaks po aktywnym dniu na świeżym powietrzu",
+    image: "/jaccuzzi/IMG_1336.jpg",
+    position: "object-[center_60%]",
+  },
+  {
+    emoji: "❄️",
+    title: "Klimatyzacja",
+    desc: "Domek wyposażony w klimatyzację — komfort w upalne dni i ciepłe noce przez cały sezon",
+    image: "/klima/IMG_1332.jpg",
+  },
+  {
     emoji: "🌲",
     title: "Cisza i natura",
     desc: "Odizolowane położenie w Dolinie Bugu gwarantuje absolutny spokój",
@@ -115,7 +135,7 @@ export default function Amenities() {
                   src={a.image}
                   alt={a.title}
                   fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  className={`object-cover transition-transform duration-500 group-hover:scale-105 ${a.position ?? "object-center"}`}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-forest/90 via-forest/40 to-forest/10" />

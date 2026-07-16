@@ -36,6 +36,9 @@ const included = [
   "Telewizor",
   "Internet",
   "Bezpłatny parking",
+  "Klimatyzacja",
+  "Zewnętrzny basen",
+  "Jacuzzi (za dodatkową opłatą)",
 ];
 
 export default function Pricing() {
