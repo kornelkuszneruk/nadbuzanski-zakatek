@@ -2,6 +2,12 @@ import FadeIn from "./FadeIn";
 
 const tiers = [
   {
+    label: "1 noc",
+    price: "699 zł",
+    per: "/ noc",
+    highlight: false,
+  },
+  {
     label: "2–4 noce",
     price: "od 599 zł",
     per: "/ noc",
@@ -53,14 +59,11 @@ export default function Pricing() {
             <h2 className="font-serif text-forest text-4xl md:text-5xl font-semibold mt-4 leading-tight">
               Przejrzyste <em className="italic text-sage">ceny</em>
             </h2>
-            <p className="text-forest/50 text-lg mt-4">
-              Minimalna długość pobytu: 2 noce
-            </p>
           </div>
         </FadeIn>
 
         <FadeIn delay={80}>
-          <div className="grid sm:grid-cols-3 gap-5 max-w-3xl mx-auto mb-12">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-4xl mx-auto mb-12">
             {tiers.map((t) => (
               <div
                 key={t.label}
