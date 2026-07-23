@@ -34,7 +34,7 @@ const attractions = [
   {
     emoji: "🏊",
     title: "Kąpielisko Pompka",
-    desc: "Popularne lokalne kąpielisko w pobliżu — idealne na orzeźwienie w upalne dni.",
+    desc: "„Pompka" w Woli Uhruskiej to wyjątkowe miejsce wypoczynku w malowniczym otoczeniu starorzecza rzeki Bug. Piaszczysta plaża, strzeżone kąpielisko dla całych rodzin oraz wypożyczalnia kajaków — idealna propozycja zarówno dla relaksujących się nad wodą, jak i miłośników aktywnego wypoczynku na łonie natury.",
   },
 ];
 
