@@ -676,8 +676,6 @@ export const posts: Post[] = [
       },
     ],
   },
-];
-
   {
     slug: "dab-bolko-hniszow",
     title: "Dąb Bolko w Hniszowie — pomnikowy dąb z widokiem na Bug",
