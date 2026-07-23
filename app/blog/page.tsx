@@ -86,6 +86,24 @@ export default function BlogPage() {
               </Link>
             ))}
           </div>
+
+          {/* Link to photo gallery */}
+          <Link
+            href="/galeria-okolicy"
+            className="group mt-10 flex items-center justify-between gap-6 rounded-3xl overflow-hidden bg-pine p-8 hover:-translate-y-0.5 transition-all duration-300 hover:shadow-xl"
+          >
+            <div className="relative w-24 h-24 rounded-2xl overflow-hidden flex-shrink-0">
+              <Image src="/galeria-okolicy/bug-meandry-z-drona.jpg" alt="Galeria okolicy" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
+            </div>
+            <div className="flex-1">
+              <p className="text-meadow text-xs font-bold tracking-[0.25em] uppercase mb-2">Galeria zdjęć</p>
+              <p className="font-serif text-cream text-xl font-semibold leading-snug">Okolica w obiektywie</p>
+              <p className="text-cream/50 text-sm mt-1">Zdjęcia z okolic Woli Uhruskiej — rzeka Bug, jeziora, przyroda Polesia</p>
+            </div>
+            <svg className="w-6 h-6 text-cream/40 group-hover:text-meadow flex-shrink-0 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
         </div>
       </main>
       <Footer />

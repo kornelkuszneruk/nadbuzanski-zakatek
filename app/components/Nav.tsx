@@ -11,6 +11,7 @@ const links = [
   { href: "#rezerwacje", label: "Kalendarz" },
   { href: "#kontakt", label: "Kontakt" },
   { href: "/blog", label: "Blog Odkryj Okolicę" },
+  { href: "/galeria-okolicy", label: "Galeria Okolicy" },
 ];
 
 export default function Nav() {
