@@ -40,4 +40,10 @@ export const galeriaOkolicy: GaleriaPhoto[] = [
     label: "Dąb Bolko",
     location: "Hniszów",
   },
+  {
+    src: "/galeria-okolicy/grzybobranie-borowik.jpg",
+    alt: "Borowik zebrany w okolicznych lasach",
+    label: "Grzybobranie — borowik",
+    location: "Lasy Poleskie",
+  },
 ];
