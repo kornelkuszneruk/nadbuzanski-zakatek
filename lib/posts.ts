@@ -296,7 +296,7 @@ export const posts: Post[] = [
     date: "2025-07-22",
     excerpt:
       "Zajazd Gibson w okolicach Włodawy to kultowe miejsce w regionie — domowa kuchnia, serdeczna obsługa i klimat, który sprawia, że chce się wracać. Idealne miejsce na obiad podczas zwiedzania okolicy.",
-    coverImage: "/atrakcje/IMG_9909.jpg",
+    coverImage: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Wola_Uhruska%2C_Zajazd_Gibson_-_fotopolska.eu_%28224067%29.jpg",
     readTime: "3 min",
     sections: [
       {
@@ -331,7 +331,7 @@ export const posts: Post[] = [
     date: "2025-07-25",
     excerpt:
       "Pizzeria Oaza to ulubione miejsce spotkań mieszkańców i turystów w okolicach Woli Uhruskiej. Dobra pizza, przyjazna atmosfera i wygodne położenie sprawiają, że chętnie wracamy tu wieczorami.",
-    coverImage: "/atrakcje/IMG_0373.jpg",
+    coverImage: "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg",
     readTime: "2 min",
     sections: [
       {
@@ -358,7 +358,7 @@ export const posts: Post[] = [
     date: "2025-07-10",
     excerpt:
       "Green Velo to jeden z najdłuższych i najpiękniejszych szlaków rowerowych w Polsce. Odcinek przez Polesie Lubelskie, przebiegający tuż obok Nadbużańskiego Zakątka, zachwyca dzikością przyrody i ciszą.",
-    coverImage: "/atrakcje/IMG_4899.jpg",
+    coverImage: "https://upload.wikimedia.org/wikipedia/commons/4/43/Green_Velo_odcinek_Frombork_-_R%C3%B3%C5%BCaniec.jpg",
     readTime: "5 min",
     sections: [
       {
@@ -401,7 +401,7 @@ export const posts: Post[] = [
     date: "2025-07-20",
     excerpt:
       "Bug to jedna z ostatnich dzikich rzek w Europie — nieuregulowana, kapryśna, pełna wysp i starorzeczy. Dolina Bugu oferuje niezapomniane przeżycia: spływy kajakowe, obserwację ptaków i absolutną ciszę.",
-    coverImage: "/atrakcje/IMG_0003.jpg",
+    coverImage: "https://upload.wikimedia.org/wikipedia/commons/0/01/Wola_Uhruska_-_fotopolska.eu_%28224117%29.jpg",
     readTime: "5 min",
     sections: [
       {
