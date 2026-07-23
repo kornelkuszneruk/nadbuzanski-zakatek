@@ -21,8 +21,6 @@ const interior: Photo[] = [
   { src: "/gallery/IMG_9873.jpg", alt: "Schody na antresolę", label: "Schody" },
   { src: "/gallery/IMG_9874.jpg", alt: "Widok antresoli z góry", label: "Antresola – widok" },
   { src: "/gallery/IMG_9814.jpg", alt: "Antresola z widokiem na salon", label: "Antresola" },
-  { src: "/gallery/IMG_1610.jpg", alt: "Gry planszowe w domku", label: "Gry planszowe" },
-  { src: "/gallery/IMG_1641.jpg", alt: "PlayStation 5 i głośnik JBL", label: "PS5 & JBL" },
 ];
 
 const exterior: Photo[] = [
@@ -46,6 +44,8 @@ const exterior: Photo[] = [
   { src: "/gallery/IMG_1411.jpg", alt: "Domek z tarasem i parasolem", label: "Taras" },
   { src: "/gallery/IMG_1574.jpg", alt: "Staw o świcie z mgłą i wędką", label: "Poranek nad stawem" },
   { src: "/rowery/IMG_1621.jpg", alt: "Rowery dostępne dla gości", label: "Rowery" },
+  { src: "/gallery/IMG_1610.jpg", alt: "Gry planszowe w domku", label: "Gry planszowe" },
+  { src: "/gallery/IMG_1641.jpg", alt: "PlayStation 5 i głośnik JBL", label: "PS5 & JBL" },
 ];
 
 const night: Photo[] = [

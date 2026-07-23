@@ -44,6 +44,9 @@ const included = [
   "Bezpłatny parking",
   "Klimatyzacja",
   "Zewnętrzny basen",
+  "Gry planszowe",
+  "2 rowery",
+  "PlayStation 5 z 2 padami",
   "Jacuzzi (za dodatkową opłatą)",
 ];
 
