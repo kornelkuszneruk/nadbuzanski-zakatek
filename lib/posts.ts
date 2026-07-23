@@ -21,7 +21,7 @@ export const posts: Post[] = [
     excerpt:
       "Krystalicznie czysta woda, piaszczyste plaże i sosnowy las tuż obok — Jezioro Białe to jedno z najpiękniejszych miejsc na wypoczynek w Polsce Wschodniej, zaledwie 20 minut od Nadbużańskiego Zakątka.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Jezioro_Bia%C5%82e_Okuninka_k.Okuninka2006.jpg/1280px-Jezioro_Bia%C5%82e_Okuninka_k.Okuninka2006.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Jezioro_Bia%C5%82e%2C_Okuninka_~22jatnwr.jpg",
     readTime: "4 min",
     sections: [
       {
@@ -59,74 +59,110 @@ export const posts: Post[] = [
     ],
   },
   {
-    slug: "jezioro-piesieckie",
-    title: "Jezioro Piesieckie — leśna perła w cieniu olsów",
+    slug: "jezioro-piaseczno",
+    title: "Jezioro Piaseczno — szmaragdowa perła Pojezierza Łęczyńsko-Włodawskiego",
     date: "2025-07-05",
     excerpt:
-      "Jezioro Piesieckie to jedno z najcichszych i najdzikszych jezior w okolicach Woli Uhruskiej. Otoczone lasem i niemal nieznane szerszej publiczności — idealne dla tych, którzy cenią spokój i bliskość natury.",
+      "Jezioro Piaseczno to jedno z najpiękniejszych jezior na Pojezierzu Łęczyńsko-Włodawskim — krystalicznie czysta woda, piaszczyste plaże i otaczający je sosnowy las tworzą wyjątkowe miejsce na letni wypoczynek.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pojezierze_%C5%81%C4%99czy%C5%84sko-W%C5%82odawskie_-_jezioro.jpg/1280px-Pojezierze_%C5%81%C4%99czy%C5%84sko-W%C5%82odawskie_-_jezioro.jpg",
-    readTime: "3 min",
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Jezioro_piaseczno_lubelskie_leczna.jpg",
+    readTime: "4 min",
     sections: [
       {
         type: "paragraph",
-        text: "Jezioro Piesieckie leży w sercu Pojezierza Łęczyńsko-Włodawskiego, zaledwie kilka kilometrów od Woli Uhruskiej. W przeciwieństwie do bardziej popularnych jezior regionu, Piesieckie zachowało swój dziki, nienaruszony charakter — brzegi porastają olsy i szuwary, a tafla wody odbija korony starych drzew.",
+        text: "Jezioro Piaseczno leży na Pojezierzu Łęczyńsko-Włodawskim, w okolicach Łęcznej, i należy do grupy najczystszych jezior Lubelszczyzny. Jego wody mają charakterystyczny szmaragdowo-turkusowy kolor wynikający z dużej przejrzystości i specyficznego składu mineralnego. Wokół jeziora rozciągają się sosnowe lasy pełne grzybów i jagód.",
       },
       {
         type: "heading",
-        text: "Natura i ptaki",
+        text: "Plaża i kąpielisko",
       },
       {
         type: "paragraph",
-        text: "Jezioro jest ostoją dla wielu gatunków ptaków wodno-błotnych. Wczesnym rankiem można tu usłyszeć bąka, zausznika i perkoza dwuczubego. Spokojne wody jeziora sprzyjają obserwacji przyrody — wystarczy usiąść cicho na brzegu i poczekać. Zbiornik jest też siedliskiem bobra europejskiego, którego żeremia widać miejscami przy brzegach.",
+        text: "Nad Piasecznem urządzone jest kąpielisko z piaszczystą plażą — idealne dla rodzin z dziećmi. Plaża jest dobrze zagospodarowana: są leżaki, infrastruktura sanitarna i miejsca do grillowania. Woda jest czysta i ciepła w sezonie letnim, a łagodne zejście do wody sprawia, że kąpiel jest bezpieczna nawet dla najmłodszych.",
       },
       {
         type: "heading",
-        text: "Spacer wokół jeziora",
+        text: "Wędkarstwo i sporty wodne",
       },
       {
         type: "paragraph",
-        text: "Wokół jeziora prowadzi leśna ścieżka, którą można pokonać pieszo lub rowerem. Trasa jest płaska i niewymagająca — nadaje się dla całej rodziny, nawet z wózkiem. Po drodze mijamy podmokłe łąki, zarośla wierzbowe i fragmenty starego lasu olchowego.",
+        text: "Jezioro Piaseczno jest też chętnie odwiedzane przez wędkarzy — żyją w nim szczupak, okoń, leszcz i węgorz. Można tu też wypożyczyć kajaki i rowery wodne, by odkrywać jezioro z perspektywy wody. Wokół jeziora poprowadzona jest ścieżka rowerowa, łącząca je z innymi jeziorami pojezierza.",
       },
       {
         type: "tip",
-        text: "Wskazówka: Jezioro Piesieckie jest doskonałe na poranną wycieczkę rowerową z Nadbużańskiego Zakątka. Rowery dostępne są bezpłatnie dla gości obiektu — trasa zajmuje około 30–40 minut w jedną stronę.",
+        text: "Wskazówka: Jezioro Piaseczno leży około 50 km od Nadbużańskiego Zakątka. Warto połączyć wizytę z przejazdem szlakiem rowerowym przez okoliczne lasy — to niezapomniana trasa przez serce Lubelszczyzny.",
       },
     ],
   },
   {
-    slug: "jezioro-husinne",
-    title: "Jezioro Husinne — cisze, trzciny i niezapomniane wschody słońca",
+    slug: "zalew-husynne",
+    title: "Zalew Husynne — spokojna tafla wody w dolinie Bugu",
     date: "2025-07-08",
     excerpt:
-      "Jezioro Husinne to jedno z najpiękniejszych jezior Polesia — malownicze, spokojne i pełne życia. Szczególnie wyjątkowe o świcie, gdy mgła unosi się nad taflą wody, a słońce barwi niebo na odcienie różu i złota.",
+      "Zalew Husynne to malowniczy zbiornik wodny w gminie Dorohusk, otoczony łąkami i starorzeczami Bugu. Ciche, nieturystyczne miejsce idealne dla wędkarzy, miłośników przyrody i tych, którzy szukają spokoju.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Jezioro_Husinne.JPG/1280px-Jezioro_Husinne.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Zalew_Husynne.jpg",
     readTime: "3 min",
     sections: [
       {
         type: "paragraph",
-        text: "Jezioro Husinne leży niedaleko Woli Uhruskiej, wśród rozległych łąk i lasów Polesia Lubelskiego. To jezioro rynnowe o wydłużonym kształcie, otoczone szuwarami i grążelami — raj dla wędkarzy, fotografów przyrodniczych i wszystkich, którzy szukają ciszy z dala od zgiełku.",
+        text: "Zalew Husynne leży w gminie Dorohusk, niedaleko Chełma, wśród rozległych łąk i lasów nadburzańskich. To sztuczny zbiornik retencyjny o malowniczym, naturalnym charakterze — brzegi porastają wierzby i szuwary, a lustro wody spokojnie odbija otaczające pejzaże.",
       },
       {
         type: "heading",
-        text: "Wędkarstwo i przyroda",
+        text: "Wędkarstwo",
       },
       {
         type: "paragraph",
-        text: "Jezioro Husinne słynie wśród miejscowych wędkarzy — żyją w nim szczupak, karaś, lin i leszcz. Wokół zbiornika bujnie rozrastają się trzciny i pałka wodna, które stanowią schronienie dla kaczek krzyżówek, łysek i chruścieli. Wczesnym rankiem nad jeziorem unosi się mgła, która w połączeniu ze wschodem słońca tworzy niezapomniany widok.",
+        text: "Zalew Husynne jest doskonałym miejscem dla wędkarzy — żyją w nim karp, szczupak, lin, karaś i leszcz. Spokojne, niezbyt głębokie wody sprzyjają połowom przez cały sezon. Nad zalewem można spędzić spokojne godziny z wędką, z dala od zgiełku popularnych ośrodków turystycznych.",
       },
       {
         type: "heading",
-        text: "Najlepszy czas na wizytę",
+        text: "Przyroda i okolica",
       },
       {
         type: "paragraph",
-        text: "Jezioro Husinne zachwyca o każdej porze roku. Latem przyciąga kąpiących się i wędkarzy, jesienią — fotografów szukających mglistych poranków, a zimą, gdy zamarza, staje się naturalnym lodowiskiem i miejscem spacerów. Przełom lata i jesieni to szczególny czas — nad jeziorem zbierają się stada migrujących ptaków.",
+        text: "W okolicach zalewu żyją liczne gatunki ptaków wodno-błotnych: czaple, łyski, kaczki i perkozy. Wiosną i jesienią zatrzymują się tu ptaki migrujące — to atrakcja dla obserwatorów przyrody z lornetką. Okolica jest też piękna rowerowo — teren płaski, drogi spokojne, pejzaże nadburzańskie na każdym kroku.",
       },
       {
         type: "tip",
-        text: "Wskazówka: Wybierz się nad Husinne o wschodzie słońca — to najpiękniejsza pora dnia nad tym jeziorem. Warto zabrać aparat fotograficzny i lornetkę.",
+        text: "Wskazówka: Zalew Husynne jest stosunkowo mało znany turystycznie, co jest jego największą zaletą. Przyjedź tu, gdy popularne jeziora regionu są pełne ludzi — tutaj zawsze znajdziesz spokój i ciszę.",
+      },
+    ],
+  },
+  {
+    slug: "jezioro-bialskie",
+    title: "Jezioro Bialskie — leśne jezioro w okolicach Parczewa",
+    date: "2025-07-09",
+    excerpt:
+      "Jezioro Bialskie koło Parczewa to jedno z najpiękniejszych jezior Polesia — otoczone lasem sosnowym, z czystą wodą i piaszczystymi plażami. Idealne miejsce na jednodniową wycieczkę z Nadbużańskiego Zakątka.",
+    coverImage:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Jezioro_Bialskie.JPG/1280px-Jezioro_Bialskie.JPG",
+    readTime: "3 min",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Jezioro Bialskie (zwane też Białką Parczewską) leży we wsi Białka w gminie Dębowa Kłoda, niedaleko Parczewa. Otoczone rozległym kompleksem leśnym Lasów Parczewskich, zachowało dziki, nienaruszony charakter — to jedno z tych miejsc, w których czas zdaje się zatrzymywać.",
+      },
+      {
+        type: "heading",
+        text: "Czysta woda i piaszczyste plaże",
+      },
+      {
+        type: "paragraph",
+        text: "Jezioro słynie z wyjątkowo czystej wody i piaszczystego dna. Nad brzegiem urządzone jest kąpielisko z plażą, chętnie odwiedzane przez rodziny z dziećmi i miłośników aktywnego wypoczynku. Las sosnowy otaczający jezioro daje przyjemny cień w upalne dni i wypełnia powietrze zapachem żywicy.",
+      },
+      {
+        type: "heading",
+        text: "Lasy Parczewskie",
+      },
+      {
+        type: "paragraph",
+        text: "Jezioro Bialskie leży w centrum Lasów Parczewskich — rozległego kompleksu borów sosnowych słynącego z bogatych grzybobrań. Jesienią okolice jeziora są rajem dla grzybiarzy. Przez lasy prowadzą szlaki piesze i rowerowe, którymi można dotrzeć do kolejnych jezior i leśnych osad.",
+      },
+      {
+        type: "tip",
+        text: "Wskazówka: Z Nadbużańskiego Zakątka do Jeziora Bialskiego jedzie się około godziny przez Włodawę i Parczew. Warto połączyć wycieczkę ze zwiedzaniem Parczewa i przejażdżką rowerową po Lasach Parczewskich.",
       },
     ],
   },
@@ -137,7 +173,7 @@ export const posts: Post[] = [
     excerpt:
       "Rezerwat Żółwiowych Błot to jedno z nielicznych miejsc w Polsce, gdzie można spotkać dzikiego żółwia błotnego. Torfowiska, szuwary i podmokłe lasy kryją unikalny, pierwotny ekosystem Polesia Lubelskiego.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Emys_orbicularis_-_pond_turtle.jpg/1280px-Emys_orbicularis_-_pond_turtle.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Emys_orbicularis_2016_06.jpg",
     readTime: "4 min",
     sections: [
       {
@@ -181,7 +217,7 @@ export const posts: Post[] = [
     excerpt:
       "Kąpielisko Pompka to ulubione miejsce mieszkańców i gości Woli Uhruskiej — piaszczysta plaża nad starorzeczem Bugu, wypożyczalnia kajaków i sielski klimat wschodniej Polski w jednym miejscu.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Wola_Uhruska_-_starorzecze_Bugu.jpg/1280px-Wola_Uhruska_-_starorzecze_Bugu.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Starorzecze_Bugu.jpg/960px-Starorzecze_Bugu.jpg",
     readTime: "3 min",
     sections: [
       {
@@ -217,7 +253,7 @@ export const posts: Post[] = [
     excerpt:
       "Pod Chełmem kryje się labirynt kredowych korytarzy drążonych przez wieki przez górników. Podziemia Kredowe to jedna z największych atrakcji turystycznych Lubelszczyzny — niezwykła wycieczka dla całej rodziny.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Che%C5%82m_-_podziemia_kredowe.JPG/1280px-Che%C5%82m_-_podziemia_kredowe.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/d/dd/Podziemia_kredowe_II.jpg",
     readTime: "5 min",
     sections: [
       {
