@@ -216,8 +216,7 @@ export const posts: Post[] = [
     date: "2025-07-15",
     excerpt:
       "Kąpielisko Pompka to ulubione miejsce mieszkańców i gości Woli Uhruskiej — piaszczysta plaża nad starorzeczem Bugu, wypożyczalnia kajaków i sielski klimat wschodniej Polski w jednym miejscu.",
-    coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Starorzecze_Bugu.jpg/960px-Starorzecze_Bugu.jpg",
+    coverImage: "/blog/pompka-plaza.jpg",
     readTime: "3 min",
     sections: [
       {
@@ -488,8 +487,7 @@ export const posts: Post[] = [
     date: "2025-07-27",
     excerpt:
       "Z wieży widokowej w Woli Uhruskiej rozciąga się zapierający dech widok na Dolinę Bugu — meandrującą rzekę, rozległe łąki i lasy po obu stronach granicy. To obowiązkowy punkt podczas wizyty w okolicy.",
-    coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bug_w_okolicach_Husynnego.jpg",
+    coverImage: "/blog/wieza-widokowa.jpg",
     readTime: "2 min",
     sections: [
       {
