@@ -14,7 +14,7 @@ export default function Hero() {
       />
 
       {/* Dark gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-forest/70 via-forest/30 to-forest/75" />
+      <div className="absolute inset-0 bg-gradient-to-b from-forest/45 via-forest/15 to-forest/55" />
 
       {/* Soft glow accents */}
       <div className="absolute inset-0 pointer-events-none">
