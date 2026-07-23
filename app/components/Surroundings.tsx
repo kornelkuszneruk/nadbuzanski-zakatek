@@ -31,6 +31,11 @@ const attractions = [
     title: "Spływy kajakowe Bugiem",
     desc: "Wielogodzinne spływy malowniczym Bugiem — spokojny nurt, dzikie brzegi i niezapomniane widoki.",
   },
+  {
+    emoji: "🏊",
+    title: "Kąpielisko Pompka",
+    desc: "Popularne lokalne kąpielisko w pobliżu — idealne na orzeźwienie w upalne dni.",
+  },
 ];
 
 export default function Surroundings() {
@@ -73,6 +78,7 @@ export default function Surroundings() {
               "📍 Jezioro Białe – 20 min",
               "📍 Włodawa – 15 min",
               "📍 Sobibór – 20 min",
+              "📍 Kąpielisko Pompka – 5 min",
             ].map((item) => (
               <span
                 key={item}

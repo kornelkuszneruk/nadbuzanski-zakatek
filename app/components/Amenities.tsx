@@ -39,6 +39,13 @@ const amenities: { emoji: string; title: string; desc: string; image: string; po
     image: "/gallery/IMG_9993.jpg",
   },
   {
+    emoji: "🛁",
+    title: "Jacuzzi",
+    desc: "Jacuzzi z hydromasażem — idealne na relaks po aktywnym dniu na świeżym powietrzu",
+    image: "/jaccuzzi/IMG_1336.jpg",
+    position: "object-[center_60%]",
+  },
+  {
     emoji: "☀️",
     title: "Leżaki",
     desc: "Wygodne leżaki nad stawem do kąpieli słonecznych i relaksu",
@@ -86,13 +93,6 @@ const amenities: { emoji: string; title: string; desc: string; image: string; po
     desc: "Prywatny basen ogrodowy dostępny wyłącznie dla gości obiektu",
     image: "/basen/IMG_1335.jpg",
     position: "object-bottom",
-  },
-  {
-    emoji: "🛁",
-    title: "Jacuzzi",
-    desc: "Jacuzzi z hydromasażem — idealne na relaks po aktywnym dniu na świeżym powietrzu",
-    image: "/jaccuzzi/IMG_1336.jpg",
-    position: "object-[center_60%]",
   },
   {
     emoji: "🎲",

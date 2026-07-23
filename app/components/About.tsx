@@ -32,6 +32,26 @@ const highlights = [
     title: "Wieczory przy ognisku",
     body: "Palenisko, grill i gwiazdy nad głową.",
   },
+  {
+    emoji: "🏊",
+    title: "Basen ogrodowy",
+    body: "Prywatny basen dostępny bezpłatnie wyłącznie dla gości obiektu",
+  },
+  {
+    emoji: "🛁",
+    title: "Jacuzzi",
+    body: "Jacuzzi z hydromasażem — relaks po aktywnym dniu na świeżym powietrzu",
+  },
+  {
+    emoji: "🎮",
+    title: "PlayStation 5",
+    body: "Konsola PlayStation 5 z dwoma padami — rozrywka dla graczy w każdym wieku",
+  },
+  {
+    emoji: "🎲",
+    title: "Gry planszowe",
+    body: "Bogaty zestaw gier planszowych dla całej rodziny",
+  },
 ];
 
 export default function About() {
