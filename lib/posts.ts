@@ -719,6 +719,7 @@ export const posts: Post[] = [
       },
     ],
   },
+];
 
 export function getPost(slug: string) {
   return posts.find((p) => p.slug === slug) ?? null;
