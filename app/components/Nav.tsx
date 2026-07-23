@@ -10,6 +10,7 @@ const links = [
   { href: "#cennik", label: "Cennik" },
   { href: "#rezerwacje", label: "Kalendarz" },
   { href: "#kontakt", label: "Kontakt" },
+  { href: "/blog", label: "Blog" },
 ];
 
 export default function Nav() {
