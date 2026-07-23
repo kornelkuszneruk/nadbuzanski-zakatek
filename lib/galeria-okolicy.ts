@@ -166,4 +166,58 @@ export const galeriaOkolicy: GaleriaPhoto[] = [
     label: "Podgrzybki",
     location: "Grzybobranie",
   },
+  {
+    src: "/galeria-okolicy/czubajki-las.jpg",
+    alt: "Czubajki kanie zebrane w lesie",
+    label: "Czubajki kanie",
+    location: "Grzybobranie",
+  },
+  {
+    src: "/galeria-okolicy/domek-noc-staw.jpg",
+    alt: "Domek nocą widoczny ze stawu z girlandami swiatelnymi",
+    label: "Domek nocą",
+    location: "Nadbuzanski Zakatek",
+  },
+  {
+    src: "/galeria-okolicy/domek-staw-mostek.jpg",
+    alt: "Domek widziany ze stawu przez drewniany mostek",
+    label: "Domek od strony stawu",
+    location: "Nadbuzanski Zakatek",
+  },
+  {
+    src: "/galeria-okolicy/staw-swit-mgla.jpg",
+    alt: "Staw o swicie we mgle z wedka",
+    label: "Staw o swicie",
+    location: "Nadbuzanski Zakatek",
+  },
+  {
+    src: "/galeria-okolicy/staw-mgla-rano.jpg",
+    alt: "Staw we mgle wczesnym rankiem",
+    label: "Staw o poranku",
+    location: "Nadbuzanski Zakatek",
+  },
+  {
+    src: "/galeria-okolicy/glicynia-kwiaty.jpg",
+    alt: "Glicynia z fioletowymi kwiatami",
+    label: "Glicynia",
+    location: "Nadbuzanski Zakatek",
+  },
+  {
+    src: "/galeria-okolicy/sosna-ogrod.jpg",
+    alt: "Mloda sosna w ogrodzie z domkiem w tle",
+    label: "Ogrod",
+    location: "Nadbuzanski Zakatek",
+  },
+  {
+    src: "/galeria-okolicy/tecza-nad-polem.jpg",
+    alt: "Tecza nad polami w okolicach Woli Uhruskiej",
+    label: "Tecza",
+    location: "Okolice Woli Uhruskiej",
+  },
+  {
+    src: "/galeria-okolicy/rowery-ogrod.jpg",
+    alt: "Dwa rowery w ogrodzie dostepne dla gosci",
+    label: "Rowery",
+    location: "Nadbuzanski Zakatek",
+  },
 ];
