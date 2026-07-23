@@ -10,7 +10,7 @@ const links = [
   { href: "#cennik", label: "Cennik" },
   { href: "#rezerwacje", label: "Kalendarz" },
   { href: "#kontakt", label: "Kontakt" },
-  { href: "/blog", label: "Atrakcje w okolicy" },
+  { href: "/blog", label: "Blog Atrakcje w Okolicy" },
 ];
 
 export default function Nav() {
