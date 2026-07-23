@@ -95,6 +95,24 @@ const amenities: { emoji: string; title: string; desc: string; image: string; po
     position: "object-[center_60%]",
   },
   {
+    emoji: "🎲",
+    title: "Gry planszowe",
+    desc: "Bogaty zestaw gier planszowych — Monopoly, Alias, Kalambury i wiele innych dla całej rodziny",
+    image: "/gallery/IMG_1610.jpg",
+  },
+  {
+    emoji: "🚲",
+    title: "Rowery",
+    desc: "Rowery dostępne dla gości — idealne do wycieczek szlakiem Green Velo i odkrywania okolicy",
+    image: "/rowery/IMG_1621.jpg",
+  },
+  {
+    emoji: "🎮",
+    title: "PlayStation 5",
+    desc: "Konsola PlayStation 5 z padem — rozrywka dla graczy w każdym wieku",
+    image: "/gallery/IMG_1641.jpg",
+  },
+  {
     emoji: "❄️",
     title: "Klimatyzacja",
     desc: "Domek wyposażony w klimatyzację — komfort w upalne dni i ciepłe noce przez cały sezon",
