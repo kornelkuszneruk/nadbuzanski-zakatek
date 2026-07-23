@@ -438,6 +438,246 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "sobiborski-park-krajobrazowy",
+    title: "Sobiborski Park Krajobrazowy — dzika przyroda Polesia",
+    date: "2025-07-26",
+    excerpt:
+      "Sobiborski Park Krajobrazowy to rozległy obszar leśny i torfowiskowy w sercu Polesia Lubelskiego. Nieskażona przyroda, rzadkie gatunki roślin i zwierząt oraz sieć szlaków pieszych i rowerowych — raj dla miłośników natury.",
+    coverImage:
+      "https://upload.wikimedia.org/wikipedia/commons/8/88/PL_%C5%BB%C3%B3%C5%82wiowe_B%C5%82ota_nature_reserve_1.jpg",
+    readTime: "4 min",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Sobiborski Park Krajobrazowy obejmuje ponad 40 000 hektarów lasów, torfowisk i mokradeł na wschodzie Lubelszczyzny. To jeden z najdzikszych i najsłabiej zaludnionych obszarów w Polsce — miejsce, gdzie natura rządzi się własnymi prawami, a człowiek jest jedynie gościem.",
+      },
+      {
+        type: "heading",
+        text: "Torfowiska i mokradła",
+      },
+      {
+        type: "paragraph",
+        text: "Sercem parku są rozległe torfowiska i bagna — siedliska wyjątkowo rzadkich gatunków roślin i zwierząt. Rosiczki, żurawiny i bagno zwyczajne tworzą tu niepowtarzalne ekosystemy. W podmokłych lasach olchowych i brzozowych żyją żuraw, bocian czarny i bielik — jedne z najbardziej majestatycznych ptaków Europy.",
+      },
+      {
+        type: "heading",
+        text: "Szlaki i aktywny wypoczynek",
+      },
+      {
+        type: "paragraph",
+        text: "Przez park prowadzi sieć szlaków pieszych i rowerowych, w tym fragment Green Velo. Trasy są zróżnicowane — od krótkich spacerów po całodniowe wędrówki. Po drodze mijamy leśne jeziorka, rezerwaty przyrody i spokojne wioski, w których czas zdaje się stać w miejscu.",
+      },
+      {
+        type: "tip",
+        text: "Wskazówka: Zabierz ze sobą środek na komary — to nieodłączny element poleskiego klimatu, szczególnie w pobliżu mokradeł. W zamian dostaniesz absolutną ciszę i widoki, których nie znajdziesz nigdzie indziej.",
+      },
+      {
+        type: "heading",
+        text: "Żółwiowe Błota — rezerwat w parku",
+      },
+      {
+        type: "paragraph",
+        text: "W granicach parku leży rezerwat Żółwiowe Błota — jedno z nielicznych miejsc w Polsce, gdzie w naturze żyje żółw błotny. Spacer ścieżką rezerwatu to niezwykłe przeżycie: podmokły las, śpiew ptaków i szansa na spotkanie z tym rzadkim gadem.",
+      },
+    ],
+  },
+  {
+    slug: "wieza-widokowa-wola-uhruska",
+    title: "Wieża widokowa w Woli Uhruskiej — panorama Doliny Bugu",
+    date: "2025-07-27",
+    excerpt:
+      "Z wieży widokowej w Woli Uhruskiej rozciąga się zapierający dech widok na Dolinę Bugu — meandrującą rzekę, rozległe łąki i lasy po obu stronach granicy. To obowiązkowy punkt podczas wizyty w okolicy.",
+    coverImage:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bug_w_okolicach_Husynnego.jpg",
+    readTime: "2 min",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Wieża widokowa w Woli Uhruskiej to punkt, od którego warto zacząć poznawanie okolicy. Ze szczytu roztacza się panorama Doliny Bugu — nieuregulowanej rzeki, która stanowi granicę polsko-ukraińską. W oddali widać rozległe łąki, lasy Polesia i starorzecza Bugu.",
+      },
+      {
+        type: "heading",
+        text: "Co widać z wieży?",
+      },
+      {
+        type: "paragraph",
+        text: "W pogodne dni z wieży można zobaczyć kilkadziesiąt kilometrów w każdą stronę. Rzeka Bug wije się w dole, tworząc malownicze meandry i wyspy. Po lewej stronie ciągną się Lasy Sobiborskie, po prawej — wsie i pola Polesia. O zachodzie słońca widok jest szczególnie magiczny — niebo płonie odcieniami czerwieni i pomarańczy.",
+      },
+      {
+        type: "tip",
+        text: "Wskazówka: Wieża widokowa jest bezpłatna i ogólnodostępna. Wybierz się tam wczesnym rankiem lub wieczorem — światło jest wtedy najpiękniejsze, a mgły nad rzeką tworzą niezapomniany nastrój.",
+      },
+    ],
+  },
+  {
+    slug: "stacja-uhrusk",
+    title: "Stacja Uhrusk — zabytkowy dworzec z wieżą ciśnień i parkiem",
+    date: "2025-07-28",
+    excerpt:
+      "Odrestaurowana stacja kolejowa Uhrusk to jeden z najpiękniejszych zabytkowych dworców wschodniej Polski. Historyczny budynek z wieżą ciśnień, park i sąsiednie kąpielisko Pompka tworzą wyjątkowe miejsce na odpoczynek.",
+    coverImage:
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/Wola_Uhruska%2C_Stacja_kolejowa_Uhrusk_-_fotopolska.eu_%28224294%29.jpg",
+    readTime: "3 min",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Stacja kolejowa Uhrusk to zabytkowy budynek z przełomu XIX i XX wieku, który przeszedł gruntowną rewitalizację. Dziś jest jednym z ładniejszych przykładów kolejowego dziedzictwa architektonicznego na Lubelszczyźnie — ceglany budynek z charakterystyczną wieżą ciśnień przyciąga fotografów i miłośników historii.",
+      },
+      {
+        type: "heading",
+        text: "Wieża ciśnień i architektura",
+      },
+      {
+        type: "paragraph",
+        text: "Nieodłącznym elementem kompleksu stacyjnego jest zabytkowa wieża ciśnień — budowla, która niegdyś zaopatrywała w wodę parowozy. Po renowacji stała się wizytówką miejscowości. Wokół stacji urządzono park ze ławkami i alejkami, tworząc przyjemne miejsce na spacer.",
+      },
+      {
+        type: "heading",
+        text: "Ośrodek Pompka w pobliżu",
+      },
+      {
+        type: "paragraph",
+        text: "Tuż obok stacji działa ośrodek i kąpielisko Pompka — razem tworzą idealne połączenie: historia i rekreacja w jednym miejscu. Po zwiedzaniu zabytkowego dworca można schłodzić się w starorzeczu Bugu lub wypożyczyć kajak i wyruszyć na wodną przygodę.",
+      },
+      {
+        type: "tip",
+        text: "Wskazówka: Stacja Uhrusk leży dosłownie 5 minut od Nadbużańskiego Zakątka. Warto wybrać się tam na rowerowy spacer — klimatyczny budynek i park to świetne tło do zdjęć.",
+      },
+    ],
+  },
+  {
+    slug: "wlodawa-miasto-trzech-kultur",
+    title: "Włodawa — miasto trzech kultur i synagoga z muzeum",
+    date: "2025-07-29",
+    excerpt:
+      "Włodawa to jedno z najciekawszych miast wschodniej Polski — dawne miasto trzech kultur (polskiej, żydowskiej i ukraińskiej) z imponującym zespołem synagog, barokowym kościołem i malowniczym rynkiem nad Bugiem.",
+    coverImage:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7b/W%C5%82odawa%2C_zesp%C3%B3%C5%82_synagogi%2C_XVIII%2C_XIX_ccc.JPG",
+    readTime: "5 min",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Włodawa leży nad Bugiem, 15 km od Nadbużańskiego Zakątka, i jest jednym z najcenniejszych pod względem historycznym miast Lubelszczyzny. Przez wieki zamieszkiwali ją Polacy, Żydzi i Ukraińcy — każda z tych społeczności zostawiła po sobie trwały ślad w architekturze i kulturze miasta.",
+      },
+      {
+        type: "heading",
+        text: "Zespół synagog i muzeum",
+      },
+      {
+        type: "paragraph",
+        text: "Największą atrakcją Włodawy jest imponujący zespół synagog z XVIII i XIX wieku — jeden z najlepiej zachowanych tego typu kompleksów w Polsce. W budynkach mieści się Muzeum Pojezierza Łęczyńsko-Włodawskiego z bogatymi zbiorami dotyczącymi historii regionu i społeczności żydowskiej. Wielka Synagoga robi ogromne wrażenie zarówno z zewnątrz, jak i wewnątrz.",
+      },
+      {
+        type: "heading",
+        text: "Barokowy kościół św. Ludwika",
+      },
+      {
+        type: "paragraph",
+        text: "Naprzeciwko synagog stoi barokowy kościół św. Ludwika — piękna świątynia z XVII wieku z bogatym wystrojem wnętrza. To jeden z najcenniejszych przykładów baroku na wschodzie Polski. Obok kościoła mieści się klasztor paulinów, który wzbogaca architektoniczny krajobraz centrum.",
+      },
+      {
+        type: "heading",
+        text: "Rynek i starówka",
+      },
+      {
+        type: "paragraph",
+        text: "Centrum Włodawy tworzy malowniczy rynek z kamienicami pamiętającymi wielokulturową przeszłość. To przyjemne miejsce na kawę i spacer — miasto jest spokojne, niespieszne i autentyczne, bez turystycznego przepakowania. Warto zejść na bulwar nad Bugiem, skąd rozciąga się piękny widok na rzekę.",
+      },
+      {
+        type: "tip",
+        text: "Wskazówka: Muzeum w synagodze jest czynne od wtorku do niedzieli. Warto zaplanować wizytę na godziny poranne — po południu można połączyć ją z kąpielą na Jeziorze Białym w Okunince, które leży po drodze z powrotem.",
+      },
+    ],
+  },
+  {
+    slug: "sobibor-miejsce-pamieci",
+    title: "Sobibór — Muzeum i Miejsce Pamięci",
+    date: "2025-07-30",
+    excerpt:
+      "Miejsce Pamięci w Sobiborze upamiętnia ofiary nazistowskiego obozu zagłady z okresu II wojny światowej. To ważne i poruszające miejsce, które warto odwiedzić, by oddać hołd ofiarom i lepiej zrozumieć historię.",
+    coverImage:
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Neue_Gedenkallee_Oktober_2023_Gedenkst%C3%A4tte_Sobibor.jpg",
+    readTime: "4 min",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Sobibór to wieś w gminie Włodawa, 20 km od Nadbużańskiego Zakątka. W czasie II wojny światowej Niemcy zbudowali tu jeden z obozów zagłady akcji Reinhardt, w którym zginęło od 170 000 do 250 000 Żydów z Polski, Holandii, Francji, Czechosłowacji i innych krajów. W październiku 1943 roku więźniowie wzniecili zbrojne powstanie i uciekli — to jeden z nielicznych takich aktów oporu w historii Holokaustu.",
+      },
+      {
+        type: "heading",
+        text: "Muzeum i nowa ekspozycja",
+      },
+      {
+        type: "paragraph",
+        text: "W 2023 roku otwarto nowe Muzeum i Miejsce Pamięci w Sobiborze po gruntownej przebudowie i rozbudowie. Nowoczesna ekspozycja przybliża historię obozu, losy ofiar i historię powstania więźniów. Na terenie upamiętnienia zachowała się rampa kolejowa, po której transporty trafiały do obozu.",
+      },
+      {
+        type: "heading",
+        text: "Aleja pamięci",
+      },
+      {
+        type: "paragraph",
+        text: "Centralnym elementem miejsca pamięci jest nowa Aleja Upamiętnienia — cicha, pełna godności przestrzeń z kamieniami i tablicami poświęconymi ofiarom. To miejsce skłaniające do refleksji i zadumy. Każdego roku odbywają się tu uroczystości upamiętniające, w których udział biorą ocalali i ich rodziny z całego świata.",
+      },
+      {
+        type: "tip",
+        text: "Wskazówka: Wizytę w Sobiborze warto zaplanować z odpowiednią ilością czasu — co najmniej 2–3 godziny. Muzeum jest czynne od wtorku do niedzieli. Wstęp bezpłatny.",
+      },
+    ],
+  },
+  {
+    slug: "chelm-bazylika-starowka",
+    title: "Chełm — bazylika, starówka i Park Wodny",
+    date: "2025-07-31",
+    excerpt:
+      "Chełm to wielowymiarowe miasto — obok słynnych Podziemi Kredowych kryje piękną bazylikę na wapiennym wzgórzu, klimatyczną starówkę i nowoczesny Park Wodny. Wystarczy na cały dzień zwiedzania.",
+    coverImage:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d5/BAZYLIKA_NNMP_widok_z_Bramy_U%C5%9Bci%C5%82ugskiej.jpg",
+    readTime: "4 min",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Chełm jest powszechnie znany z Podziemi Kredowych, ale miasto ma do zaoferowania znacznie więcej. Wapienna górka, na której wyrosło miasto, skrywa piękną bazylikę, resztki średniowiecznego grodu i klimatyczną starówkę, która świetnie nadaje się na popołudniowy spacer.",
+      },
+      {
+        type: "heading",
+        text: "Bazylika Narodzenia NMP",
+      },
+      {
+        type: "paragraph",
+        text: "Na szczycie kredowego wzgórza stoi Bazylika Narodzenia Najświętszej Maryi Panny — jedna z najpiękniejszych barokowych świątyń wschodniej Polski. Budowana od XVII do XVIII wieku, zachwyca bogatym wystrojem wnętrza i dominującą sylwetą widoczną z daleka. Z placu przy bazylice roztacza się panorama miasta i okolic.",
+      },
+      {
+        type: "heading",
+        text: "Wysoka Górka i grodzisko",
+      },
+      {
+        type: "paragraph",
+        text: "Obok bazyliki można zwiedzić pozostałości Wysokiej Górki — dawnego grodu Daniela Halickiego z XIII wieku. To jedno z najstarszych miejsc w historii Chełma, z którego roztaczał się strategiczny widok na okolicę. Teren jest zagospodarowany jako park historyczny z tablicami informacyjnymi.",
+      },
+      {
+        type: "heading",
+        text: "Starówka i Plac Kupiecki",
+      },
+      {
+        type: "paragraph",
+        text: "Centrum Chełma tworzy zabytkowa starówka z odrestaurowanymi kamienicami i deptakiem. Plac Kupiecki to serce miasta — przyjemne miejsce na kawę i obserwowanie codziennego życia. W okolicy jest kilka dobrych restauracji i kawiarni, gdzie można odpocząć po zwiedzaniu.",
+      },
+      {
+        type: "heading",
+        text: "Chełmski Park Wodny",
+      },
+      {
+        type: "paragraph",
+        text: "Gdy pogoda nie sprzyja, świetną opcją jest Chełmski Park Wodny — nowoczesny aquapark z basenami, zjeżdżalniami i strefą spa. To idealne miejsce na rodzinny dzień, szczególnie w chłodniejsze dni lub w deszcz. Park Wodny jest dobrze wyposażony i czynny przez cały rok.",
+      },
+      {
+        type: "tip",
+        text: "Wskazówka: Chełm warto połączyć z wizytą w Podziemiach Kredowych — to osobny wpis na naszym blogu. Na całe miasto zaplanuj minimum 4–5 godzin. Parking dostępny przy centrum.",
+      },
+    ],
+  },
 ];
 
 export function getPost(slug: string) {
