@@ -120,13 +120,13 @@ export default function Gallery() {
         </FadeIn>
 
         <FadeIn delay={110}>
-          <SectionLabel label="Basen" />
-          <PhotoGrid photos={pool} />
+          <SectionLabel label="Jacuzzi" />
+          <PhotoGrid photos={jacuzzi} />
         </FadeIn>
 
         <FadeIn delay={115}>
-          <SectionLabel label="Jacuzzi" />
-          <PhotoGrid photos={jacuzzi} />
+          <SectionLabel label="Basen" />
+          <PhotoGrid photos={pool} />
         </FadeIn>
 
 <FadeIn delay={120}>
