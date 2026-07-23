@@ -7,6 +7,7 @@ const navLinks = [
   { href: "#cennik", label: "Cennik" },
   { href: "#rezerwacje", label: "Kalendarz" },
   { href: "#kontakt", label: "Kontakt" },
+  { href: "/blog", label: "Blog" },
 ];
 
 export default function Footer() {

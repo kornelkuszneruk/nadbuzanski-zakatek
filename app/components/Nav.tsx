@@ -48,7 +48,7 @@ export default function Nav() {
           </span>
         </a>
 
-        <nav className="hidden md:flex items-center gap-7">
+        <nav className="hidden md:flex items-center gap-4 lg:gap-6">
           {links.map((l) => (
             <a key={l.href} href={l.href} className={`text-sm tracking-wide ${text} ${hover}`}>
               {l.label}
