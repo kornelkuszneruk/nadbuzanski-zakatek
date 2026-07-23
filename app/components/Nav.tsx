@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 const links = [
@@ -17,6 +18,12 @@ const links = [
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const resolvedLinks = links.map((l) => ({
+    ...l,
+    href: l.href.startsWith("#") && !isHome ? `/${l.href}` : l.href,
+  }));
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80);
@@ -50,7 +57,7 @@ export default function Nav() {
         </a>
 
         <nav className="hidden md:flex items-center gap-4 lg:gap-6">
-          {links.map((l) => (
+          {resolvedLinks.map((l) => (
             <a key={l.href} href={l.href} className={`text-sm tracking-wide ${text} ${hover}`}>
               {l.label}
             </a>
@@ -68,7 +75,7 @@ export default function Nav() {
             </a>
           </div>
           <a
-            href="#kontakt"
+            href={isHome ? "#kontakt" : "/#kontakt"}
             className="ml-2 rounded-full bg-sage px-5 py-2.5 text-sm font-semibold text-cream tracking-wide transition-all duration-300 hover:bg-fern hover:shadow-lg hover:shadow-sage/25"
           >
             Rezerwuj
@@ -96,7 +103,7 @@ export default function Nav() {
         }`}
       >
         <div className="px-6 py-5 flex flex-col gap-3">
-          {links.map((l) => (
+          {resolvedLinks.map((l) => (
             <a
               key={l.href}
               href={l.href}
@@ -107,7 +114,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="#kontakt"
+            href={isHome ? "#kontakt" : "/#kontakt"}
             onClick={() => setOpen(false)}
             className="mt-2 rounded-full bg-sage px-5 py-3 text-sm font-semibold text-cream text-center"
           >
