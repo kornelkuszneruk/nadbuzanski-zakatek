@@ -517,7 +517,7 @@ export const posts: Post[] = [
     excerpt:
       "Odrestaurowana stacja kolejowa Uhrusk to jeden z najpiękniejszych zabytkowych dworców wschodniej Polski. Historyczny budynek z wieżą ciśnień, park i sąsiednie kąpielisko Pompka tworzą wyjątkowe miejsce na odpoczynek.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/2/29/Wola_Uhruska%2C_Stacja_kolejowa_Uhrusk_-_fotopolska.eu_%28224294%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Uhrusk_station_SA134_b.JPG",
     readTime: "3 min",
     sections: [
       {
