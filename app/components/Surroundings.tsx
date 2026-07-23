@@ -1,5 +1,4 @@
 import FadeIn from "./FadeIn";
-import SurroundingsMapLoader from "./SurroundingsMapLoader";
 
 const attractions = [
   {
@@ -91,11 +90,7 @@ export default function Surroundings() {
           </div>
         </FadeIn>
 
-        <FadeIn delay={350}>
-          <div className="mt-10">
-            <SurroundingsMapLoader />
-          </div>
-        </FadeIn>
+
       </div>
     </section>
   );
