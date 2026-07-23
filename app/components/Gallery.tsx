@@ -21,6 +21,8 @@ const interior: Photo[] = [
   { src: "/gallery/IMG_9873.jpg", alt: "Schody na antresolę", label: "Schody" },
   { src: "/gallery/IMG_9874.jpg", alt: "Widok antresoli z góry", label: "Antresola – widok" },
   { src: "/gallery/IMG_9814.jpg", alt: "Antresola z widokiem na salon", label: "Antresola" },
+  { src: "/gallery/IMG_1610.jpg", alt: "Gry planszowe w domku", label: "Gry planszowe" },
+  { src: "/gallery/IMG_1641.jpg", alt: "PlayStation 5 i głośnik JBL", label: "PS5 & JBL" },
 ];
 
 const exterior: Photo[] = [
@@ -41,6 +43,9 @@ const exterior: Photo[] = [
   { src: "/gallery/IMG_0111.jpg", alt: "Lilie wodne na stawie koi", label: "Lilie wodne" },
   { src: "/gallery/IMG_0218.jpg", alt: "Karpie koi pośród lilii wodnych", label: "Karpie koi" },
   { src: "/gallery/IMG_0006.jpg", alt: "Hamak między drzewami w ogrodzie", label: "Hamak" },
+  { src: "/gallery/IMG_1411.jpg", alt: "Domek z tarasem i parasolem", label: "Taras" },
+  { src: "/gallery/IMG_1574.jpg", alt: "Staw o świcie z mgłą i wędką", label: "Poranek nad stawem" },
+  { src: "/rowery/IMG_1621.jpg", alt: "Rowery dostępne dla gości", label: "Rowery" },
 ];
 
 const night: Photo[] = [
@@ -48,11 +53,16 @@ const night: Photo[] = [
   { src: "/noc/IMG_0024.jpg", alt: "Domek nocą od zewnątrz", label: "Domek nocą" },
   { src: "/noc/IMG_0031.jpg", alt: "Ogród nocą z hamakami i lampkami", label: "Ogród nocą" },
   { src: "/noc/IMG_0015.jpg", alt: "Taras nocą z lampkami", label: "Taras nocą" },
+  { src: "/noc/IMG_1345.jpg", alt: "Ogród nocą z lampkami i hamakiem", label: "Ogród nocą" },
+  { src: "/noc/IMG_1351.jpg", alt: "Tabliczka przy bramie nocą", label: "Wejście nocą" },
+  { src: "/noc/IMG_1585.jpg", alt: "Staw wieczorem z odbiciem lampek", label: "Staw wieczorem" },
+  { src: "/noc/IMG_1588.jpg", alt: "Domek nocą z lampkami nad stawem", label: "Lampki nad stawem" },
 ];
 
 const pool: Photo[] = [
   { src: "/basen/IMG_1334.jpg", alt: "Basen ogrodowy", label: "Basen" },
   { src: "/basen/IMG_1335.jpg", alt: "Basen w ogrodzie", label: "Basen" },
+  { src: "/basen/IMG_1487.jpg", alt: "Relaks w basenie", label: "Relaks w basenie" },
 ];
 
 const jacuzzi: Photo[] = [
