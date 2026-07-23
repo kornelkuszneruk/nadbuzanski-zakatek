@@ -678,6 +678,50 @@ export const posts: Post[] = [
   },
 ];
 
+  {
+    slug: "dab-bolko-hniszow",
+    title: "Dąb Bolko w Hniszowie — pomnikowy dąb z widokiem na Bug",
+    date: "2025-08-01",
+    excerpt:
+      "Dąb Bolko w Hniszowie to jeden z najpiękniejszych i najbardziej okazałych dębów w okolicach Woli Uhruskiej. Wielowiekowe drzewo pomnikowe otoczone łąkami nadbużańskimi robi niesamowite wrażenie — szczególnie z lotu ptaka.",
+    coverImage: "/blog/dab-bolko.jpg",
+    readTime: "3 min",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Dąb Bolko rośnie we wsi Hniszów, nieopodal Woli Uhruskiej, na tle rozległych łąk nadbużańskich. To drzewo pomnikowe o imponującym obwodzie pnia i rozłożystej koronie, która zimą tworzy niesamowity wzór gałęzi przypominający żyłki liścia. Szacuje się, że dąb liczy sobie kilkaset lat — był więc świadkiem całej historii tego regionu.",
+      },
+      {
+        type: "heading",
+        text: "Pomnikowe drzewo z charakterem",
+      },
+      {
+        type: "paragraph",
+        text: "Bolko wyróżnia się wyjątkowym kształtem — rozłożyste konary tworzą rozbudowaną, nieregularną koronę, która o każdej porze roku wygląda inaczej. Wiosną i latem ukrywa się w gęstym listowiu, jesienią płonie złotem i brązem, a zimą odsłania swój prawdziwy charakter — rozgałęzioną, dramatyczną sylwetkę widoczną z daleka.",
+      },
+      {
+        type: "heading",
+        text: "Okolica i widoki",
+      },
+      {
+        type: "paragraph",
+        text: "Dąb rośnie na otwartej przestrzeni, wśród łąk w dolinie Bugu. Teren jest płaski i rozległy — z okolic drzewa rozciągają się piękne widoki na meandrującą rzekę i okoliczne wsie. To miejsce ciche i spokojne, nieodwiedzane przez turystów — prawdziwa ukryta perła regionu.",
+      },
+      {
+        type: "tip",
+        text: "Wskazówka: Dąb Bolko leży kilka kilometrów od Nadbużańskiego Zakątka — to idealna destynacja na spokojny rowerowy wypad. Warto odwiedzić go o zachodzie słońca, gdy boczne światło pięknie modeluje fakturę kory i rysuje długie cienie na łące.",
+      },
+      {
+        type: "heading",
+        text: "Jak dojechać?",
+      },
+      {
+        type: "paragraph",
+        text: "Hniszów leży na południe od Woli Uhruskiej, wzdłuż drogi biegnącej przez nadburzańskie łąki. Dojazd rowerem z Nadbużańskiego Zakątka to około 20–30 minut spokojnej jazdy przez malownicze tereny. Dąb stoi przy drodze, więc łatwo go dostrzec — jego imponująca sylwetka nie pozwala przejechać obojętnie.",
+      },
+    ],
+  },
+
 export function getPost(slug: string) {
   return posts.find((p) => p.slug === slug) ?? null;
 }
