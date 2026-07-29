@@ -297,6 +297,12 @@ export const posts: Post[] = [
         text: "Chełm to jedno z najstarszych miast wschodniej Polski, a pod jego ulicami kryje się prawdziwy skarb — labirynt podziemnych korytarzy wydrążonych w kredzie piszącej. Podziemia powstawały przez wieki, od średniowiecza aż po XX wiek, jako wyrobiska górnicze. Dziś udostępniony turyście fragment liczy ponad 2 km tras i jest jedną z największych atrakcji Lubelszczyzny.",
       },
       {
+        type: "image",
+        src: "/blog/podziemia-kredowe-mural.jpg",
+        alt: "Podziemia Kredowe w Chełmie — mural z panoramą historycznego Chełma wyryty w kredowej ścianie",
+        caption: "Kredowa ściana z wyrytą panoramą dawnego Chełma — jedna z najbardziej charakterystycznych sal podziemi",
+      },
+      {
         type: "heading",
         text: "Jak wygląda zwiedzanie?",
       },
@@ -305,12 +311,25 @@ export const posts: Post[] = [
         text: "Wycieczki odbywają się z przewodnikiem w grupach. Trasa wiedzie przez oświetlone korytarze na głębokości kilku metrów pod ziemią — temperatura w podziemiach wynosi stale około 9–10°C, więc warto zabrać sweter nawet latem. Po drodze oglądamy komory, szczeliny i ślady dawnej pracy górników, a przewodnik opowiada o historii i legendach miejsca.",
       },
       {
+        type: "image",
+        src: "/blog/podziemia-kredowe-korytarz.jpg",
+        alt: "Korytarz Podziemi Kredowych w Chełmie — wydrążony w kredzie tunel z figurą górnika i wózkiem",
+        caption: "Jeden z korytarzy podziemi — wydrążony ręcznie w kredzie piszącej, z rekonstrukcją pracy dawnych górników",
+      },
+      {
         type: "heading",
         text: "Naziemne atrakcje Chełma",
       },
       {
         type: "paragraph",
         text: "Chełm warto zwiedzać nie tylko pod ziemią. Na górce wapiennej górującej nad miastem stoi barokowa Bazylika Wniebowzięcia NMP — jedna z najpiękniejszych świątyń wschodniej Polski. W centrum zachowała się synagoga i ciekawa starówka z kamienicami pamiętającymi wielokulturową przeszłość miasta.",
+      },
+
+      {
+        type: "image",
+        src: "/blog/podziemia-kredowe-mural2.jpg",
+        alt: "Podziemia Kredowe — widok na mural z panoramą Chełma przez skalne łuki",
+        caption: "Panorama dawnego Chełma utrwalona na kredowej ścianie — unikalne dzieło w sercu podziemi",
       },
       {
         type: "tip",
