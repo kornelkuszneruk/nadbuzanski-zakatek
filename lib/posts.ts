@@ -607,7 +607,7 @@ export const posts: Post[] = [
     excerpt:
       "Włodawa to jedno z najciekawszych miast wschodniej Polski — dawne miasto trzech kultur (polskiej, żydowskiej i ukraińskiej) z imponującym zespołem synagog, barokowym kościołem i malowniczym rynkiem nad Bugiem.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/7/7b/W%C5%82odawa%2C_zesp%C3%B3%C5%82_synagogi%2C_XVIII%2C_XIX_ccc.JPG",
+      "/blog/wlodawa-synagoga.jpg",
     readTime: "5 min",
     sections: [
       {
