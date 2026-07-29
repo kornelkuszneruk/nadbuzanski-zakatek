@@ -687,7 +687,7 @@ export const posts: Post[] = [
     excerpt:
       "Chełm to wielowymiarowe miasto — obok słynnych Podziemi Kredowych kryje piękną bazylikę na wapiennym wzgórzu, klimatyczną starówkę i nowoczesny Park Wodny. Wystarczy na cały dzień zwiedzania.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d5/BAZYLIKA_NNMP_widok_z_Bramy_U%C5%9Bci%C5%82ugskiej.jpg",
+      "/blog/chelm-bazylika-dron.jpg",
     readTime: "4 min",
     sections: [
       {
@@ -701,6 +701,12 @@ export const posts: Post[] = [
       {
         type: "paragraph",
         text: "Na szczycie kredowego wzgórza stoi Bazylika Narodzenia Najświętszej Maryi Panny — jedna z najpiękniejszych barokowych świątyń wschodniej Polski. Budowana od XVII do XVIII wieku, zachwyca bogatym wystrojem wnętrza i dominującą sylwetą widoczną z daleka. Z placu przy bazylice roztacza się panorama miasta i okolic.",
+      },
+      {
+        type: "image",
+        src: "/blog/chelm-bazylika-dron.jpg",
+        alt: "Bazylika Narodzenia NMP w Chełmie z lotu ptaka — barokowa świątynia górująca nad miastem",
+        caption: "Bazylika Narodzenia NMP w Chełmie — widok z drona na barokową świątynię i jej otoczenie",
       },
       {
         type: "heading",
@@ -719,12 +725,24 @@ export const posts: Post[] = [
         text: "Centrum Chełma tworzy zabytkowa starówka z odrestaurowanymi kamienicami i deptakiem. Plac Kupiecki to serce miasta — przyjemne miejsce na kawę i obserwowanie codziennego życia. W okolicy jest kilka dobrych restauracji i kawiarni, gdzie można odpocząć po zwiedzaniu.",
       },
       {
+        type: "image",
+        src: "/blog/chelm-rynek-noc.jpg",
+        alt: "Rynek w Chełmie nocą — Plac Kupiecki z latarniami i sylwetką bazyliki w tle",
+        caption: "Plac Kupiecki w Chełmie o zmierzchu — zabytkowe centrum z klimatycznym oświetleniem",
+      },
+      {
         type: "heading",
         text: "Chełmski Park Wodny",
       },
       {
         type: "paragraph",
         text: "Gdy pogoda nie sprzyja, świetną opcją jest Chełmski Park Wodny — nowoczesny aquapark z basenami, zjeżdżalniami i strefą spa. To idealne miejsce na rodzinny dzień, szczególnie w chłodniejsze dni lub w deszcz. Park Wodny jest dobrze wyposażony i czynny przez cały rok.",
+      },
+      {
+        type: "image",
+        src: "/blog/chelm-park-wodny.jpg",
+        alt: "Chełmski Park Wodny nocą — nowoczesny budynek aquaparku z podświetloną fasadą",
+        caption: "Chełmski Park Wodny — jeden z najnowocześniejszych aquaparków wschodniej Polski",
       },
       {
         type: "tip",
