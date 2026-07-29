@@ -38,6 +38,12 @@ export const posts: Post[] = [
         text: "Główna plaża w Okunince to szerokie, piaszczyste nabrzeże z łagodnym zejściem do wody — idealne zarówno dla rodzin z dziećmi, jak i dla miłośników aktywnego wypoczynku. W sezonie letnim działa strzeżone kąpielisko z ratownikami, wypożyczalnia sprzętu wodnego (kajaki, rowery wodne, deski SUP) oraz punkty gastronomiczne.",
       },
       {
+        type: "image",
+        src: "/blog/jezioro-biale-plaza.jpg",
+        alt: "Plaża w Okunince — rowery wodne i kąpiący się przy Jeziorze Białym",
+        caption: "Plaża w Okunince z wypożyczalnią rowerów wodnych i kajaków",
+      },
+      {
         type: "heading",
         text: "Dla kogo jest to miejsce?",
       },
@@ -75,9 +81,9 @@ export const posts: Post[] = [
       },
       {
         type: "image",
-        src: "/blog/lunapark-okuninka.jpg",
-        alt: "Lunapark w Okunince nocą — koło widokowe odbite w jeziorze",
-        caption: "Lunapark w Okunince — koło widokowe i rozświetlone atrakcje odbite w tafli jeziora",
+        src: "/blog/jezioro-biale-lunapark-noc.jpg",
+        alt: "Lunapark w Okunince nocą — koło widokowe i atrakcje odbite w Jeziorze Białym",
+        caption: "Nocny lunapark w Okunince — koło widokowe i rozświetlone atrakcje odbite w tafli Jeziora Białego",
       },
       {
         type: "heading",
