@@ -11,7 +11,8 @@ export type Post = {
 type Section =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
-  | { type: "tip"; text: string };
+  | { type: "tip"; text: string }
+  | { type: "image"; src: string; alt: string; caption?: string };
 
 export const posts: Post[] = [
   {
@@ -22,7 +23,7 @@ export const posts: Post[] = [
       "Krystalicznie czysta woda, piaszczyste plaże i sosnowy las tuż obok — Jezioro Białe to jedno z najpiękniejszych miejsc na wypoczynek w Polsce Wschodniej, zaledwie 20 minut od Nadbużańskiego Zakątka.",
     coverImage:
       "https://upload.wikimedia.org/wikipedia/commons/9/99/Jezioro_Bia%C5%82e%2C_Okuninka_~22jatnwr.jpg",
-    readTime: "4 min",
+    readTime: "6 min",
     sections: [
       {
         type: "paragraph",
@@ -47,6 +48,36 @@ export const posts: Post[] = [
       {
         type: "tip",
         text: "Wskazówka: Jezioro Białe jest szczególnie piękne wczesnym rankiem — woda jest spokojna jak lustro i prawie nie ma turystów. Warto wybrać się tam na poranny spacer lub poranną kąpiel przed śniadaniem.",
+      },
+      {
+        type: "heading",
+        text: "Wypożyczalnie i atrakcje wodne",
+      },
+      {
+        type: "paragraph",
+        text: "Nad jeziorem działa kilka wypożyczalni sprzętu wodnego — można tu dostać kajak, rower wodny, a nawet jacht lub żaglówkę. Dla odważniejszych przygotowany jest wodny tor przeszkód (floating park) z trampolinami, zjeżdżalniami i przeszkodami na środku jeziora — świetna zabawa zarówno dla dzieci, jak i dorosłych.",
+      },
+      {
+        type: "heading",
+        text: "Gastronomia i kramiki",
+      },
+      {
+        type: "paragraph",
+        text: "Promenada wzdłuż plaży w Okunince to prawdziwy gościniec — działa tu wiele lokali gastronomicznych: od barów z lodami i fast foodem, przez restauracje serwujące ryby prosto z jeziora, aż po kawiarnie z tarasami widokowymi. Wzdłuż alejek rozstawione są kramiki z pamiątkami, lokalnym rękodziełem i sezonowymi produktami.",
+      },
+      {
+        type: "heading",
+        text: "Lunapark i życie nocne",
+      },
+      {
+        type: "paragraph",
+        text: "Po zachodzie słońca Okuninka zmienia oblicze — lunapark przy plaży rozświetla się kolorami. Koło widokowe, huśtawki i inne atrakcje jarmarku przyciągają rodziny z dziećmi i młodszych turystów. Nocna Okuninka to też dyskoteki i kluby nocne — kilka lokali organizuje imprezy plenerowe, które trwają do białego rana.",
+      },
+      {
+        type: "image",
+        src: "/blog/lunapark-okuninka.jpg",
+        alt: "Lunapark w Okunince nocą — koło widokowe odbite w jeziorze",
+        caption: "Lunapark w Okunince — koło widokowe i rozświetlone atrakcje odbite w tafli jeziora",
       },
       {
         type: "heading",
@@ -101,7 +132,7 @@ export const posts: Post[] = [
     excerpt:
       "Zalew Husynne to malowniczy zbiornik wodny w gminie Dorohusk, otoczony łąkami i starorzeczami Bugu. Ciche, nieturystyczne miejsce idealne dla wędkarzy, miłośników przyrody i tych, którzy szukają spokoju.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Zalew_Husynne.jpg",
+      "/blog/zalew-husynne.jpg",
     readTime: "3 min",
     sections: [
       {
@@ -137,7 +168,7 @@ export const posts: Post[] = [
     excerpt:
       "Jezioro Bialskie koło Parczewa to jedno z najpiękniejszych jezior Polesia — otoczone lasem sosnowym, z czystą wodą i piaszczystymi plażami. Idealne miejsce na jednodniową wycieczkę z Nadbużańskiego Zakątka.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Jezioro_Bialskie.JPG/1280px-Jezioro_Bialskie.JPG",
+      "/blog/jezioro-bialskie.jpg",
     readTime: "3 min",
     sections: [
       {
@@ -252,7 +283,7 @@ export const posts: Post[] = [
     excerpt:
       "Pod Chełmem kryje się labirynt kredowych korytarzy drążonych przez wieki przez górników. Podziemia Kredowe to jedna z największych atrakcji turystycznych Lubelszczyzny — niezwykła wycieczka dla całej rodziny.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/d/dd/Podziemia_kredowe_II.jpg",
+      "/blog/chelm-podziemia-kredowe.jpg",
     readTime: "5 min",
     sections: [
       {
@@ -295,7 +326,7 @@ export const posts: Post[] = [
     date: "2025-07-22",
     excerpt:
       "Zajazd Gibson w okolicach Włodawy to kultowe miejsce w regionie — domowa kuchnia, serdeczna obsługa i klimat, który sprawia, że chce się wracać. Idealne miejsce na obiad podczas zwiedzania okolicy.",
-    coverImage: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Wola_Uhruska%2C_Zajazd_Gibson_-_fotopolska.eu_%28224067%29.jpg",
+    coverImage: "/blog/zajazd-gibson.jpg",
     readTime: "3 min",
     sections: [
       {
@@ -515,7 +546,7 @@ export const posts: Post[] = [
     excerpt:
       "Odrestaurowana stacja kolejowa Uhrusk to jeden z najpiękniejszych zabytkowych dworców wschodniej Polski. Historyczny budynek z wieżą ciśnień, park i sąsiednie kąpielisko Pompka tworzą wyjątkowe miejsce na odpoczynek.",
     coverImage:
-      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Uhrusk_station_SA134_b.JPG",
+      "/blog/stacja-uhrusk.jpg",
     readTime: "3 min",
     sections: [
       {

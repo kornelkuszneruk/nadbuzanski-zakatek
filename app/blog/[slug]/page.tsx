@@ -90,6 +90,18 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                   </div>
                 );
               }
+              if (section.type === "image") {
+                return (
+                  <figure key={i} className="my-6">
+                    <div className="relative w-full rounded-2xl overflow-hidden" style={{ aspectRatio: "16/9" }}>
+                      <Image src={section.src} alt={section.alt} fill className="object-cover" />
+                    </div>
+                    {section.caption && (
+                      <figcaption className="text-center text-forest/40 text-xs mt-3 italic">{section.caption}</figcaption>
+                    )}
+                  </figure>
+                );
+              }
               return (
                 <p key={i} className="text-forest/65 text-base leading-relaxed">
                   {section.text}
