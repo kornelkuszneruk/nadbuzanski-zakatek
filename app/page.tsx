@@ -9,6 +9,7 @@ import Reviews from "./components/Reviews";
 import Surroundings from "./components/Surroundings";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
+import Videos from "./components/Videos";
 import MapSection from "./components/MapSection";
 import Footer from "./components/Footer";
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Amenities />
         <Surroundings />
         <Gallery />
+        <Videos />
         <Pricing />
         <Reviews />
         <Booking />
