@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import FloatingContact from "./components/FloatingContact";
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
@@ -44,7 +45,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl" className={`${inter.variable} ${playfair.variable}`}>
-      <body className="antialiased bg-sand text-forest">{children}</body>
+      <body className="antialiased bg-sand text-forest">
+        {children}
+        <FloatingContact />
+      </body>
     </html>
   );
 }
