@@ -49,6 +49,23 @@ const exterior: Photo[] = [
   { src: "/gallery/IMG_1641.jpg", alt: "PlayStation 5 i głośnik JBL", label: "PS5 & JBL" },
 ];
 
+const aerial: Photo[] = [
+  { src: "/galeria-okolicy/domek-dron-taras-ogrod.jpg", alt: "Domek z drona — taras z parasolem i ogród", label: "Domek z drona", rowSpan: true },
+  { src: "/galeria-okolicy/domek-dron-taras-lato.jpg", alt: "Domek z drona — taras z parasolem latem", label: "Taras z drona" },
+  { src: "/galeria-okolicy/domek-dron-ogrod-lato.jpg", alt: "Domek z drona — ogród latem", label: "Ogród z drona" },
+  { src: "/galeria-okolicy/domek-dron-staw-lato.jpg", alt: "Domek z drona — staw z liliami latem", label: "Staw z drona" },
+  { src: "/galeria-okolicy/posesja-dron-staw-lato.jpg", alt: "Posesja z drona — domek i staw latem", label: "Posesja latem" },
+  { src: "/galeria-okolicy/posesja-dron-stawy-lato2.jpg", alt: "Posesja z drona — domek wśród stawów", label: "Domek i stawy" },
+  { src: "/galeria-okolicy/posesja-dron-pola-lato.jpg", alt: "Posesja z drona — panorama z polami", label: "Panorama" },
+  { src: "/galeria-okolicy/stawy-dron-sierpien.jpg", alt: "Stawy rybne z drona latem", label: "Stawy z drona" },
+  { src: "/galeria-okolicy/ogrod-dron-atrakcje.jpg", alt: "Ogród z drona — huśtawka, leżaki, kajaki", label: "Atrakcje ogrodu" },
+  { src: "/galeria-okolicy/posesja-stawy-dron-lato.jpg", alt: "Posesja z drona — stawy i pola latem", label: "Stawy i pola" },
+  { src: "/galeria-okolicy/wyspa-basen-dron.jpg", alt: "Wyspa ze stawu z basenem z drona", label: "Wyspa z basenem" },
+  { src: "/galeria-okolicy/posesja-dron-sierpien-pola.jpg", alt: "Posesja z drona — sierpień", label: "Sierpień z drona" },
+  { src: "/galeria-okolicy/domek-taras-sloneczny-lato.jpg", alt: "Domek od tarasu w słoneczny letni dzień", label: "Taras latem" },
+  { src: "/galeria-okolicy/domek-trzciny-lato.jpg", alt: "Domek widziany przez trzciny latem", label: "Przez trzciny" },
+];
+
 const night: Photo[] = [
   { src: "/noc/IMG_0035.jpg", alt: "Domek nocą pod gwiazdami", label: "Pod gwiazdami" },
   { src: "/noc/IMG_0024.jpg", alt: "Domek nocą od zewnątrz", label: "Domek nocą" },
@@ -58,6 +75,15 @@ const night: Photo[] = [
   { src: "/noc/IMG_1351.jpg", alt: "Tabliczka przy bramie nocą", label: "Wejście nocą" },
   { src: "/noc/IMG_1585.jpg", alt: "Staw wieczorem z odbiciem lampek", label: "Staw wieczorem" },
   { src: "/noc/IMG_1588.jpg", alt: "Domek nocą z lampkami nad stawem", label: "Lampki nad stawem" },
+  { src: "/galeria-okolicy/domek-zmierzch-girlandy.jpg", alt: "Domek o zmierzchu z girlandami", label: "Zmierzch" },
+  { src: "/galeria-okolicy/domek-dron-noc-girlandy2.jpg", alt: "Domek nocą z drona — girlandy", label: "Girlandy z drona" },
+  { src: "/galeria-okolicy/domek-dron-noc-bliski.jpg", alt: "Domek nocą z drona — bliskie ujęcie", label: "Nocny dron" },
+  { src: "/galeria-okolicy/domek-dron-noc-staw-zielony.jpg", alt: "Domek nocą z drona — zielone jacuzzi i staw", label: "Noc z drona" },
+  { src: "/galeria-okolicy/domek-taras-noc-blisko.jpg", alt: "Taras domku nocą z bliska", label: "Taras nocą" },
+  { src: "/galeria-okolicy/domek-dron-noc-szeroki.jpg", alt: "Domek nocą — szeroki widok z drona", label: "Noc nad okolicą", rowSpan: true },
+  { src: "/galeria-okolicy/domek-gwiazdy-noc.jpg", alt: "Domek nocą pod rozgwieżdżonym niebem", label: "Gwiazdy" },
+  { src: "/galeria-okolicy/domek-taras-gwiazdy-goscie.jpg", alt: "Goście na tarasie pod gwiazdami", label: "Wieczór z gośćmi" },
+  { src: "/galeria-okolicy/droga-mleczna-sierpien.jpg", alt: "Droga Mleczna nad Nadbużańskim Zakątkiem", label: "Droga Mleczna" },
 ];
 
 const pool: Photo[] = [
@@ -118,6 +144,11 @@ export default function Gallery() {
         <FadeIn delay={100}>
           <SectionLabel label="Działka i otoczenie" />
           <PhotoGrid photos={exterior} />
+        </FadeIn>
+
+        <FadeIn delay={105}>
+          <SectionLabel label="Z lotu ptaka" />
+          <PhotoGrid photos={aerial} />
         </FadeIn>
 
         <FadeIn delay={110}>
