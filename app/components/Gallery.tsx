@@ -21,9 +21,12 @@ const interior: Photo[] = [
   { src: "/gallery/IMG_9873.jpg", alt: "Schody na antresolę", label: "Schody" },
   { src: "/gallery/IMG_9874.jpg", alt: "Widok antresoli z góry", label: "Antresola – widok" },
   { src: "/gallery/IMG_9814.jpg", alt: "Antresola z widokiem na salon", label: "Antresola" },
+  { src: "/gallery/IMG_1610.jpg", alt: "Gry planszowe w domku", label: "Gry planszowe" },
+  { src: "/gallery/IMG_1641.jpg", alt: "PlayStation 5 i głośnik JBL", label: "PS5 & JBL" },
 ];
 
 const exterior: Photo[] = [
+  { src: "/gallery/IMG_1411.jpg", alt: "Domek z tarasem i parasolem", label: "Taras" },
   { src: "/gallery/IMG_9961.jpg", alt: "Drewniany domek od zewnątrz", label: "Domek" },
   { src: "/gallery/IMG_9951.jpg", alt: "Taras z fotelami ogrodowymi", label: "Taras" },
   { src: "/gallery/IMG_9989.jpg", alt: "Taras z parasolem i bujną zielenią", label: "Taras letni" },
@@ -34,6 +37,8 @@ const exterior: Photo[] = [
   { src: "/gallery/IMG_9954.jpg", alt: "Widok z tarasu na ogród z hamakami", label: "Widok z tarasu" },
   { src: "/gallery/IMG_0129.jpg", alt: "Ogród ze stołem i parasolem", label: "Ogród – relaks" },
   { src: "/gallery/IMG_0127.jpg", alt: "Drewniana wędzarnia", label: "Wędzarnia" },
+  { src: "/galeria-okolicy/domek-taras-sloneczny-lato.jpg", alt: "Domek od tarasu w słoneczny letni dzień", label: "Taras latem" },
+  { src: "/galeria-okolicy/domek-trzciny-lato.jpg", alt: "Domek widziany przez trzciny latem", label: "Przez trzciny" },
   { src: "/gallery/IMG_0092.jpg", alt: "Staw wędkarski z pomostem i lasem", label: "Staw wędkarski" },
   { src: "/gallery/IMG_0042.jpg", alt: "Staw wędkarski o zachodzie słońca", label: "Wędkarstwo" },
   { src: "/gallery/IMG_0069.jpg", alt: "Panorama stawu z liliami wodnymi", label: "Panorama stawu" },
@@ -41,12 +46,8 @@ const exterior: Photo[] = [
   { src: "/gallery/IMG_0111.jpg", alt: "Lilie wodne na stawie koi", label: "Lilie wodne" },
   { src: "/gallery/IMG_0218.jpg", alt: "Karpie koi pośród lilii wodnych", label: "Karpie koi" },
   { src: "/gallery/IMG_0006.jpg", alt: "Hamak między drzewami w ogrodzie", label: "Hamak" },
-  { src: "/gallery/IMG_1411.jpg", alt: "Domek z tarasem i parasolem", label: "Taras" },
   { src: "/gallery/IMG_1574.jpg", alt: "Staw o świcie z mgłą i wędką", label: "Poranek nad stawem" },
   { src: "/rowery/IMG_1621.jpg", alt: "Rowery dostępne dla gości", label: "Rowery" },
-  { src: "/gallery/IMG_1409.jpg", alt: "Kwiaty w ogrodzie", label: "Kwiaty" },
-  { src: "/gallery/IMG_1610.jpg", alt: "Gry planszowe w domku", label: "Gry planszowe" },
-  { src: "/gallery/IMG_1641.jpg", alt: "PlayStation 5 i głośnik JBL", label: "PS5 & JBL" },
 ];
 
 const aerial: Photo[] = [
@@ -62,8 +63,6 @@ const aerial: Photo[] = [
   { src: "/galeria-okolicy/posesja-stawy-dron-lato.jpg", alt: "Posesja z drona — stawy i pola latem", label: "Stawy i pola" },
   { src: "/galeria-okolicy/wyspa-basen-dron.jpg", alt: "Wyspa ze stawu z basenem z drona", label: "Wyspa z basenem" },
   { src: "/galeria-okolicy/posesja-dron-sierpien-pola.jpg", alt: "Posesja z drona — sierpień", label: "Sierpień z drona" },
-  { src: "/galeria-okolicy/domek-taras-sloneczny-lato.jpg", alt: "Domek od tarasu w słoneczny letni dzień", label: "Taras latem" },
-  { src: "/galeria-okolicy/domek-trzciny-lato.jpg", alt: "Domek widziany przez trzciny latem", label: "Przez trzciny" },
 ];
 
 const night: Photo[] = [
@@ -77,7 +76,6 @@ const night: Photo[] = [
   { src: "/noc/IMG_1588.jpg", alt: "Domek nocą z lampkami nad stawem", label: "Lampki nad stawem" },
   { src: "/galeria-okolicy/domek-zmierzch-girlandy.jpg", alt: "Domek o zmierzchu z girlandami", label: "Zmierzch" },
   { src: "/galeria-okolicy/domek-dron-noc-girlandy2.jpg", alt: "Domek nocą z drona — girlandy", label: "Girlandy z drona" },
-  { src: "/galeria-okolicy/domek-dron-noc-bliski.jpg", alt: "Domek nocą z drona — bliskie ujęcie", label: "Nocny dron" },
   { src: "/galeria-okolicy/domek-dron-noc-staw-zielony.jpg", alt: "Domek nocą z drona — zielone jacuzzi i staw", label: "Noc z drona" },
   { src: "/galeria-okolicy/domek-taras-noc-blisko.jpg", alt: "Taras domku nocą z bliska", label: "Taras nocą" },
   { src: "/galeria-okolicy/domek-dron-noc-szeroki.jpg", alt: "Domek nocą — szeroki widok z drona", label: "Noc nad okolicą", rowSpan: true },
@@ -88,7 +86,6 @@ const night: Photo[] = [
 
 const pool: Photo[] = [
   { src: "/basen/IMG_1334.jpg", alt: "Basen ogrodowy", label: "Basen" },
-  { src: "/basen/IMG_1335.jpg", alt: "Basen w ogrodzie", label: "Basen" },
   { src: "/basen/IMG_1487.jpg", alt: "Relaks w basenie", label: "Relaks w basenie" },
 ];
 

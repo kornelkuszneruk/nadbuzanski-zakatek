@@ -14,8 +14,33 @@ const highlights = [
   },
   {
     emoji: "🎣",
-    title: "Wędkowanie bez wychodzenia z posesji",
-    body: "Zabierz wędkę i usiądź nad własnym stawem. Bez dojazdu na łowisko, bez tłumów i bez konieczności dzielenia miejsca z przypadkowymi wędkarzami.",
+    title: "Wędkowanie na posesji",
+    body: "Zabierz wędkę i usiądź nad własnym stawem. Bez dojazdu na łowisko, bez tłumów i bez konieczności dzielenia miejsca",
+  },
+  {
+    emoji: "🛁",
+    title: "Jacuzzi",
+    body: "Jacuzzi z hydromasażem — relaks po aktywnym dniu na świeżym powietrzu",
+  },
+  {
+    emoji: "🏊",
+    title: "Basen ogrodowy",
+    body: "Prywatny basen dostępny bezpłatnie wyłącznie dla gości obiektu",
+  },
+  {
+    emoji: "🎲",
+    title: "Gry planszowe",
+    body: "Bogaty zestaw gier planszowych dla całej rodziny",
+  },
+  {
+    emoji: "🔥",
+    title: "Wieczory przy ognisku",
+    body: "Palenisko, grill i gwiazdy nad głową.",
+  },
+  {
+    emoji: "🎮",
+    title: "PlayStation 5",
+    body: "Konsola PlayStation 5 z dwoma padami — rozrywka dla graczy w każdym wieku",
   },
   {
     emoji: "🌊",
@@ -26,31 +51,6 @@ const highlights = [
     emoji: "🚲",
     title: "Green Velo",
     body: "Słynny szlak rowerowy Green Velo przebiega w pobliżu — jedna z najpiękniejszych tras w Polsce",
-  },
-  {
-    emoji: "🔥",
-    title: "Wieczory przy ognisku",
-    body: "Palenisko, grill i gwiazdy nad głową.",
-  },
-  {
-    emoji: "🏊",
-    title: "Basen ogrodowy",
-    body: "Prywatny basen dostępny bezpłatnie wyłącznie dla gości obiektu",
-  },
-  {
-    emoji: "🛁",
-    title: "Jacuzzi",
-    body: "Jacuzzi z hydromasażem — relaks po aktywnym dniu na świeżym powietrzu",
-  },
-  {
-    emoji: "🎮",
-    title: "PlayStation 5",
-    body: "Konsola PlayStation 5 z dwoma padami — rozrywka dla graczy w każdym wieku",
-  },
-  {
-    emoji: "🎲",
-    title: "Gry planszowe",
-    body: "Bogaty zestaw gier planszowych dla całej rodziny",
   },
 ];
 
