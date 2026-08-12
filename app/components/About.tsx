@@ -14,8 +14,8 @@ const highlights = [
   },
   {
     emoji: "🎣",
-    title: "Dwa stawy",
-    body: "Staw z karpiami koi do karmienia oraz staw wędkarski dla miłośników wędkarstwa",
+    title: "Wędkowanie bez wychodzenia z posesji",
+    body: "Zabierz wędkę i usiądź nad własnym stawem. Bez dojazdu na łowisko, bez tłumów i bez konieczności dzielenia miejsca z przypadkowymi wędkarzami.",
   },
   {
     emoji: "🌊",
