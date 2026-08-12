@@ -48,7 +48,7 @@ export default function Hero() {
           Prywatny domek nad Bugiem na wyłączność
         </p>
         <p
-          className="text-cream/50 text-xs md:text-sm tracking-wide mt-3 animate-fade-in"
+          className="text-cream/85 text-sm md:text-base tracking-wide mt-3 animate-fade-in"
           style={{ animationDelay: "0.65s" }}
         >
           Do&nbsp;7&nbsp;osób · prawie 1&nbsp;ha prywatnej działki · 2&nbsp;stawy · basen · jacuzzi · ognisko
@@ -56,9 +56,9 @@ export default function Hero() {
       </div>
 
       {/* Bottom: subtitle + buttons + tags */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto w-full mt-auto pb-6 md:pb-8">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto w-full mt-auto pt-16 pb-6 md:pb-8">
         <p
-          className="text-cream/75 text-lg md:text-xl leading-relaxed max-w-xl mx-auto mb-12 animate-fade-up"
+          className="text-cream/75 text-base md:text-lg leading-relaxed max-w-xl mx-auto mb-10 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
         >
           Zatrzymaj się na chwilę. Czeka na Ciebie drewniany domek wśród natury, własne stawy, ogród, miejsce na ognisko i cisza Polesia Lubelskiego.
