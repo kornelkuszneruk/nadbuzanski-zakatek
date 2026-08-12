@@ -70,6 +70,11 @@ export default function About() {
                 <br />
                 <em className="italic text-sage">pośród natury</em>
               </h2>
+              <p className="text-forest text-lg leading-relaxed mb-6 font-medium">
+                🌿 <strong>Prawie hektar tylko dla Was</strong>
+                <br />
+                <span className="text-forest/65 font-normal">Cała ogrodzona posesja jest do Waszej dyspozycji. Bez innych gości, bez wspólnego ogrodu i bez sąsiadów tuż za płotem.</span>
+              </p>
               <p className="text-forest/60 text-lg leading-relaxed mb-5">
                 Witaj w Nadbużańskim Zakątku – wyjątkowym miejscu położonym w sercu Polesia
                 Lubelskiego, gdzie natura, cisza i tradycyjny klimat tworzą idealne warunki

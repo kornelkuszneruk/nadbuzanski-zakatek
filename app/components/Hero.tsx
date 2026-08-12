@@ -56,7 +56,7 @@ export default function Hero() {
       </div>
 
       {/* Bottom: subtitle + buttons + tags */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto w-full mt-auto pt-16 pb-6 md:pb-8">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto w-full mt-auto pt-28 pb-6 md:pb-8">
         <p
           className="text-cream/75 text-base md:text-lg leading-relaxed max-w-xl mx-auto mb-10 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
