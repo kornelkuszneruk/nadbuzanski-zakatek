@@ -69,7 +69,6 @@ const night: Photo[] = [
   { src: "/noc/IMG_0035.jpg", alt: "Domek nocą pod gwiazdami", label: "Pod gwiazdami" },
   { src: "/noc/IMG_0024.jpg", alt: "Domek nocą od zewnątrz", label: "Domek nocą" },
   { src: "/noc/IMG_0031.jpg", alt: "Ogród nocą z hamakami i lampkami", label: "Ogród nocą" },
-  { src: "/noc/IMG_0015.jpg", alt: "Taras nocą z lampkami", label: "Taras nocą" },
   { src: "/noc/IMG_1345.jpg", alt: "Ogród nocą z lampkami i hamakiem", label: "Ogród nocą" },
   { src: "/noc/IMG_1351.jpg", alt: "Tabliczka przy bramie nocą", label: "Wejście nocą" },
   { src: "/noc/IMG_1585.jpg", alt: "Staw wieczorem z odbiciem lampek", label: "Staw wieczorem" },
