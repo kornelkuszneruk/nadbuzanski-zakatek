@@ -8,6 +8,7 @@ type VideoItem = {
 
 const videos: VideoItem[] = [
   { id: "nkJHUrTG5FE", title: "Zakątek 8 sierpnia 2026" },
+  { id: "bYT7jUI352E", title: "Zakątek — Short 3", short: true },
   { id: "a5ct71XUE_k", title: "Zakątek — Short", short: true },
   { id: "wqiVkctHyI4", title: "Zakątek — Short 2", short: true },
 ];
